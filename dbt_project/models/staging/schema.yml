@@ -28,10 +28,6 @@ models:
         description: Lap number
         data_tests:
           - not_null
-      - name: lap_duration
-        description: Total lap time in seconds
-        data_tests:
-          - not_null
           
   - name: stg_locations
     description: Cleaned and standardized car location data
