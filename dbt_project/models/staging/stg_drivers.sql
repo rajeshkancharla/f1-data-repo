@@ -1,10 +1,14 @@
-{{ config(materialized='view') }}
+{{
+    config(
+        materialized='view',
+        schema='staging'
+    )
+}}
 
 select
   driver_number,
-  name,
+  full_name,
   team_name,
-  nationality,
   extracted_at,
   extraction_id
 from {{ source('f1_raw_data', 'drivers') }}

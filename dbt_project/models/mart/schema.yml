@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dim_drivers
+    description: Driver dimension table with current team information (SCD Type 1)
+    columns:
+      - name: driver_key
+        description: Surrogate key for driver dimension
+        data_tests:
+          - unique
+          - not_null
+      - name: driver_number
+        description: Natural key - unique driver number
+        data_tests:
+          - unique
+          - not_null
+          
+  - name: dim_sessions
+    description: Session dimension with meeting and circuit details
+    columns:
+      - name: session_dim_key
+        description: Surrogate key for session dimension
+        data_tests:
+          - unique
+          - not_null
+      - name: session_key
+        description: Natural key - unique session identifier
+        data_tests:
+          - unique
+          - not_null
