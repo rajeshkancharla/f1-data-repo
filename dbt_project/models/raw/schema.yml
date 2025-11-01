@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: f1_raw_data
+    description: "Raw data extracted from the OpenF1 API"
+    tables:
+      - name: drivers
+        description: "Raw driver information"
+        columns:
+          - name: driver_number
+            tests: [not_null, unique]
+      - name: laps
+        description: "Lap times and telemetry"
+        columns:
+          - name: lap_number
+            tests: [not_null]
+      - name: locations
+        description: "GPS position per driver over time"
