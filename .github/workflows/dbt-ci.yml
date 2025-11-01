@@ -1,0 +1,33 @@
+name: dbt-ci
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install dbt-bigquery
+
+      - name: Run extractor
+        run: python data_extractor.py  # optional if automated load is desired
+
+      - name: Run dbt
+        working-directory: dbt_project
+        run: |
+          dbt deps
+          dbt seed --full-refresh
+          dbt run
+          dbt test
