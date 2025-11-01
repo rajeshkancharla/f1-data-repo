@@ -1,1 +1,19 @@
+name: 'f1_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'f1_bigquery'
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
+
+models:
+  f1_project:
+    raw:
+      +schema: raw
+      +materialized: view
+    mart:
+      +schema: mart
+      +materialized: table
 
