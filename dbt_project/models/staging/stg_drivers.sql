@@ -6,6 +6,7 @@
 }}
 
 select
+  session_key,
   driver_number,
   full_name,
   team_name,
