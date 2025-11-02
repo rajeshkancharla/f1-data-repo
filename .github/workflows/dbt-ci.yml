@@ -29,7 +29,7 @@ on:
       year:
         description: 'Year to extract data for'
         required: false
-        default: '2025'
+        default: '2024'
         type: string
 
 env:
@@ -37,7 +37,7 @@ env:
   PYTHON_VERSION: '3.11'
   # Default extraction parameters (can be overridden)
   DEFAULT_COUNTRY: 'Singapore'
-  DEFAULT_YEAR: '2025'
+  DEFAULT_YEAR: '2024'
 
 jobs:
   # Job 1: Data Extraction
