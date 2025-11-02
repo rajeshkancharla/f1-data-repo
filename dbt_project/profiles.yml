@@ -1,0 +1,11 @@
+f1_bigquery:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: plenti-project
+      dataset: f1_raw_data
+      threads: 4
+      keyfile: ~/.google/credentials/service_account.json
+      location: US
