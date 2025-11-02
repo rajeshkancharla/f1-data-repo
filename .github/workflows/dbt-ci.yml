@@ -1,254 +1,48 @@
-name: dbt CI/CD Pipeline
+name: F1 Data Pipeline - Simple
 
 on:
   push:
-    branches:
-      - main
-      - develop
+    branches: [main]
   pull_request:
-    branches:
-      - main
-      - develop
-  schedule:
-    # Run daily at 6 AM UTC (adjust timezone as needed)
-    - cron: '0 6 * * *'
+    branches: [main]
   workflow_dispatch:
-    # Allows manual triggering from GitHub UI
-
-env:
-  DBT_PROFILES_DIR: ./
-  PYTHON_VERSION: '3.11'
 
 jobs:
-  # Job 1: Data Extraction
-  extract-data:
-    name: Extract F1 Data from OpenF1 API
+  run-pipeline:
+    name: Extract, Transform, Test
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
+          python-version: '3.11'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
-        with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
-
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-
-      - name: Run F1 data extraction script
-        run: |
-          python run_data_extraction.py
-        env:
-          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-          BQ_DATASET: ${{ secrets.BQ_DATASET }}
-
-      - name: Verify data extraction
-        run: |
-          bq query --use_legacy_sql=false \
-            "SELECT 
-               'drivers' as table_name, COUNT(*) as row_count 
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.${{ secrets.BQ_DATASET }}.drivers\`
-             UNION ALL
-             SELECT 'laps', COUNT(*) 
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.${{ secrets.BQ_DATASET }}.laps\`
-             UNION ALL
-             SELECT 'locations', COUNT(*) 
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.${{ secrets.BQ_DATASET }}.locations\`
-             UNION ALL
-             SELECT 'pit', COUNT(*) 
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.${{ secrets.BQ_DATASET }}.pit\`"
-
-  # Job 2: dbt Build and Test
-  dbt-run:
-    name: dbt Build and Test
-    runs-on: ubuntu-latest
-    needs: extract-data  # Wait for extraction to complete
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
-
-      - name: Install dbt and dependencies
-        run: |
-          pip install --upgrade pip
           pip install dbt-bigquery==1.8.0
           pip install -r requirements.txt
 
-      - name: Authenticate to Google Cloud
+      - name: Authenticate to GCP
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-      - name: Set up dbt profile
-        run: |
-          mkdir -p ~/.dbt
-          echo "${{ secrets.DBT_PROFILES_YML }}" > ~/.dbt/profiles.yml
+      - name: Extract F1 data
+        run: python run_data_extraction.py
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
 
-      - name: Install dbt dependencies
+      - name: Run dbt models
         run: |
           cd dbt_project
           dbt deps
-
-      - name: Check dbt connection
-        run: |
-          cd dbt_project
-          dbt debug
-
-      - name: Run dbt source freshness
-        run: |
-          cd dbt_project
-          dbt source freshness
-        continue-on-error: true  # Don't fail if data is slightly stale
-
-      - name: Run dbt staging models
-        run: |
-          cd dbt_project
-          dbt run --select staging.*
-
-      - name: Run dbt dimension models
-        run: |
-          cd dbt_project
-          dbt run --select dim_*
-
-      - name: Run dbt fact models
-        run: |
-          cd dbt_project
-          dbt run --select fct_*
+          dbt run
 
       - name: Run dbt tests
         run: |
           cd dbt_project
-          dbt test --store-failures
-
-      - name: Generate dbt docs
-        run: |
-          cd dbt_project
-          dbt docs generate
-
-      - name: Upload dbt artifacts
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: dbt-artifacts
-          path: |
-            dbt_project/target/manifest.json
-            dbt_project/target/run_results.json
-            dbt_project/target/catalog.json
-          retention-days: 30
-
-      - name: Upload dbt documentation
-        uses: actions/upload-artifact@v4
-        with:
-          name: dbt-docs
-          path: |
-            dbt_project/target/index.html
-            dbt_project/target/catalog.json
-            dbt_project/target/manifest.json
-          retention-days: 90
-
-  # Job 3: Data Quality Checks
-  data-quality:
-    name: Data Quality Validation
-    runs-on: ubuntu-latest
-    needs: dbt-run
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
-        with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
-
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-
-      - name: Run custom data quality checks
-        run: |
-          # Check for data freshness
-          bq query --use_legacy_sql=false \
-            "SELECT 
-               MAX(extracted_at) as latest_extraction,
-               TIMESTAMP_DIFF(CURRENT_TIMESTAMP(), MAX(extracted_at), HOUR) as hours_since_last_update
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.${{ secrets.BQ_DATASET }}.drivers\`"
-          
-          # Check row counts are reasonable
-          bq query --use_legacy_sql=false \
-            "SELECT 
-               COUNT(*) as driver_count
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.mart.dim_drivers\`
-             HAVING COUNT(*) < 10 OR COUNT(*) > 30"
-          
-          # Check for null values in key fields
-          bq query --use_legacy_sql=false \
-            "SELECT COUNT(*) as null_count
-             FROM \`${{ secrets.GCP_PROJECT_ID }}.mart.fct_laps\`
-             WHERE lap_duration IS NULL"
-
-  # Job 4: Slack Notification (Optional)
-  notify:
-    name: Send Notification
-    runs-on: ubuntu-latest
-    needs: [extract-data, dbt-run, data-quality]
-    if: always()  # Run even if previous jobs fail
-    
-    steps:
-      - name: Send Slack notification on success
-        if: ${{ needs.dbt-run.result == 'success' }}
-        uses: slackapi/slack-github-action@v1.25.0
-        with:
-          payload: |
-            {
-              "text": "✅ F1 Data Pipeline Success",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*F1 Data Pipeline Completed Successfully*\n• Data Extraction: ✅\n• dbt Run: ✅\n• Tests: ✅\n• Commit: ${{ github.sha }}\n• Branch: ${{ github.ref_name }}"
-                  }
-                }
-              ]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-
-      - name: Send Slack notification on failure
-        if: ${{ needs.dbt-run.result == 'failure' || needs.extract-data.result == 'failure' }}
-        uses: slackapi/slack-github-action@v1.25.0
-        with:
-          payload: |
-            {
-              "text": "❌ F1 Data Pipeline Failed",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*F1 Data Pipeline Failed*\n• Check the workflow logs\n• Commit: ${{ github.sha }}\n• Branch: ${{ github.ref_name }}\n• <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Run>"
-                  }
-                }
-              ]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          dbt test
