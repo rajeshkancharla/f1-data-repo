@@ -4,7 +4,7 @@
 
 An ELT pipeline that extracts Formula 1 data from OpenF1 API, loads it into BigQuery, and transforms it using dbt for analytics.
 
-**Tech Stack:** Python → BigQuery → dbt → GitHub Actions
+**Tech Stack:** Python → BigQuery → dbt (transformations & tests) → GitHub Actions
 
 ---
 
