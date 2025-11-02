@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: stg_drivers
+    description: Cleaned and standardized driver data
+    columns:
+      - name: driver_number
+        description: Unique driver number
+        data_tests:
+          - not_null
+      - name: session_key
+        description: Session identifier
+        data_tests:
+          - not_null
+        
+  - name: stg_laps
+    description: Cleaned and standardized lap performance data
+    columns:
+      - name: session_key
+        description: Session identifier
+        data_tests:
+          - not_null
+      - name: driver_number
+        description: Driver number
+        data_tests:
+          - not_null
+      - name: lap_number
+        description: Lap number
+        data_tests:
+          - not_null
+          
+  - name: stg_locations
+    description: Cleaned and standardized car location data
+    columns:
+      - name: session_key
+        description: Session identifier
+        data_tests:
+          - not_null
+      - name: driver_number
+        description: Driver number
+        data_tests:
+          - not_null
+
+  - name: stg_pit
+    description: Cleaned and standardized pit stop data
+    columns:
+      - name: session_key
+        description: Session identifier
+        data_tests:
+          - not_null
+      - name: driver_number
+        description: Driver number
+        data_tests:
+          - not_null
