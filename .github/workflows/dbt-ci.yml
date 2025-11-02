@@ -34,7 +34,7 @@ jobs:
 
       - name: Run data extraction
         run: |
-          python run_data_extraction.py --country "Monaco" --year "2024"
+          python run_data_extraction.py --country "Singapore" --year 2024
         env:
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           BQ_DATASET: ${{ secrets.BQ_DATASET }}
