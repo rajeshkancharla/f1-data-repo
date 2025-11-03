@@ -201,10 +201,6 @@ dbt docs serve
 - Solution: Add more specific filters (session_key, date range)
 - The API rejects requests for too much data at once
 
-**Issue: dbt test failures**
-- Check logs: `cd dbt_project && dbt test --debug`
-- Review failed test in `target/compiled/` directory
-
 **Issue: BigQuery permission denied**
 - Verify service account has `bigquery.dataEditor` role
 - Check `GOOGLE_APPLICATION_CREDENTIALS` is set correctly
