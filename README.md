@@ -80,8 +80,7 @@ dbt docs serve
 ├── dbt_project/
 │   ├── models/
 │   │   ├── staging/             # Staging views (raw data cleanup)
-│   │   ├── intermediate/        # Dimension tables
-│   │   └── marts/              # Fact tables (analytics-ready)
+│   │   └── marts/               # Fact tables (analytics-ready)
 │   ├── tests/                   # Custom dbt tests
 │   └── dbt_project.yml
 │
