@@ -1,11 +1,11 @@
-f1_bigquery:
+f1_project:
   target: dev
   outputs:
     dev:
       type: bigquery
-      method: service-account
+      method: oauth
       project: plenti-project
-      dataset: f1_raw_data
-      threads: 4
-      keyfile: ~/.gcp/f1-gcp-service-account.json
+      dataset: f1_analytics
       location: US
+      threads: 4
+      timeout_seconds: 300
