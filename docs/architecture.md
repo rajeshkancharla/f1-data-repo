@@ -29,8 +29,8 @@ An ELT pipeline that extracts Formula 1 data from OpenF1 API, loads it into BigQ
 **Key Files:**
 - `.github/workflows/dbt-ci.yml` - Main production pipeline
 
-### Alternative for Future: Airflow
-If we need more complex scheduling or visual DAGs later, we can migrate to something like AirFlow
+### Alternative for Future: Airflow / Dagster
+If we need more complex scheduling or visual DAGs later, we can migrate to something like AirFlow or Dagster
 
 ---
 
