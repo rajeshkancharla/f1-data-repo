@@ -28,3 +28,8 @@
 <img width="422" height="88" alt="image" src="https://github.com/user-attachments/assets/55949635-cabb-40ff-b571-c3ccd346f099" />
 
 ---
+
+## DBT Tests
+
+<img width="607" height="339" alt="image" src="https://github.com/user-attachments/assets/5cf5c544-5167-4a67-87eb-8d0d8a874761" />
+<img width="600" height="236" alt="image" src="https://github.com/user-attachments/assets/8955e209-3bc9-431f-9abf-3f39ce52814f" />
