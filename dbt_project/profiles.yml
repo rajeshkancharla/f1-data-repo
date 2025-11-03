@@ -7,5 +7,5 @@ f1_bigquery:
       project: plenti-project
       dataset: f1_raw_data
       threads: 4
-      keyfile: ~/.google/credentials/service_account.json
+      keyfile: ~/.gcp/f1-gcp-service-account.json
       location: US
