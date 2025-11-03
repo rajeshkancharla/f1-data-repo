@@ -133,7 +133,8 @@ The pipeline runs automatically via GitHub Actions:
 1. Create two datasets in your GCP project:
    ```sql
    CREATE SCHEMA `your-project.f1_raw_data`;
-   CREATE SCHEMA `your-project.f1_analytics`;
+   CREATE SCHEMA `your-project.f1_raw_data_staging`;
+   CREATE SCHEMA `your-project.f1_raw_data_mart`;
    ```
 
 2. Create a service account with these roles:
