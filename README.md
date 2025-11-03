@@ -194,9 +194,6 @@ dbt test
 dbt docs generate
 dbt docs serve
 ```
-
----
-
 ---
 
 ## Troubleshooting
