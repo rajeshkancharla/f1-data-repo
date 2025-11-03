@@ -1,0 +1,96 @@
+version: 2
+
+sources:
+  - name: f1_raw_data
+    description: Raw F1 data extracted from OpenF1 API
+    database: plenti-project  # Replace with your actual project ID
+    schema: f1_raw_data  # Replace with your actual dataset name
+    
+    tables:
+      - name: drivers
+        description: Driver information for each session
+        columns:
+          - name: driver_number
+            description: Unique driver number
+            tests:
+              - not_null
+          - name: session_key
+            description: Unique session identifier
+            tests:
+              - not_null
+          - name: meeting_key
+            description: Unique meeting identifier
+          - name: broadcast_name
+            description: Driver name as shown on TV
+          - name: full_name
+            description: Driver's full name
+          - name: team_name
+            description: Team name
+          - name: _extracted_at
+            description: Timestamp when data was extracted
+            
+      - name: laps
+        description: Detailed lap performance data
+        columns:
+          - name: session_key
+            description: Unique session identifier
+            tests:
+              - not_null
+          - name: driver_number
+            description: Unique driver number
+            tests:
+              - not_null
+          - name: lap_number
+            description: Lap number within the session
+            tests:
+              - not_null
+          - name: lap_duration
+            description: Total lap time in seconds
+          - name: date_start
+            description: UTC timestamp of lap start
+          - name: _extracted_at
+            description: Timestamp when data was extracted
+            
+      - name: locations
+        description: Car position data at ~3.7Hz sample rate
+        columns:
+          - name: session_key
+            description: Unique session identifier
+            tests:
+              - not_null
+          - name: driver_number
+            description: Unique driver number
+            tests:
+              - not_null
+          - name: date
+            description: UTC timestamp of position reading
+            tests:
+              - not_null
+          - name: x
+            description: X coordinate position
+          - name: y
+            description: Y coordinate position
+          - name: z
+            description: Z coordinate position
+          - name: _extracted_at
+            description: Timestamp when data was extracted
+            
+      - name: pit
+        description: Pit stop data
+        columns:
+          - name: session_key
+            description: Unique session identifier
+            tests:
+              - not_null
+          - name: driver_number
+            description: Unique driver number
+            tests:
+              - not_null
+          - name: lap_number
+            description: Lap number when pit stop occurred
+          - name: pit_duration
+            description: Pit stop duration in seconds
+          - name: date
+            description: UTC timestamp of pit stop
+          - name: _extracted_at
+            description: Timestamp when data was extracted
