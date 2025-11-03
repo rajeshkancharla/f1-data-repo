@@ -8,11 +8,11 @@ A production-ready ELT pipeline that extracts Formula 1 telemetry data from the 
 
 ## Features
 
-✅ **Idempotent data ingestion** - Safe to re-run, no duplicates  
-✅ **Dimensional modeling** - Star schema with fact and dimension tables  
-✅ **Automated CI/CD** - GitHub Actions for extraction, transformation, and testing  
-✅ **Comprehensive testing** - 28+ data quality tests  
-✅ **Production-ready** - Error handling, logging, monitoring  
+**Idempotent data ingestion** - Safe to re-run, no duplicates  
+**Dimensional modeling** - Star schema with fact and dimension tables  
+**Automated CI/CD** - GitHub Actions for extraction, transformation, and testing  
+**Comprehensive testing** - 28+ data quality tests  
+**Production-ready** - Error handling, logging, monitoring  
 
 ---
 
