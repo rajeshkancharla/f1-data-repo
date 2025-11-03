@@ -432,53 +432,6 @@ def main():
         print(f"  Tables updated:   {tables_updated}")
         print("=" * 70)
         
-        # Show sample query
-        if not args.quiet:
-            print("\n Sample BigQuery Query:")
-            print("-" * 70)
-            if meeting_mode:
-                print(f"""
-SELECT 
-    d.driver_number,
-    CONCAT(d.first_name, ' ', d.last_name) as driver_name,
-    d.team_name,
-    COUNT(DISTINCT l.lap_number) as total_laps,
-    MIN(l.lap_duration) as fastest_lap,
-    COUNT(DISTINCT p.pit_duration) as pit_stops,
-    AVG(p.pit_duration) as avg_pit_duration
-FROM `{PROJECT_ID}.{DATASET_ID}.drivers` d
-LEFT JOIN `{PROJECT_ID}.{DATASET_ID}.laps` l 
-    ON d.driver_number = l.driver_number 
-    AND d.session_key = l.session_key
-LEFT JOIN `{PROJECT_ID}.{DATASET_ID}.pit` p
-    ON d.driver_number = p.driver_number
-    AND d.session_key = p.session_key
-WHERE d.session_key = {session_key}
-  AND l.lap_duration > 0
-GROUP BY d.driver_number, driver_name, d.team_name
-ORDER BY fastest_lap ASC;
-                """)
-            else:
-                print(f"""
-SELECT 
-    d.driver_number,
-    CONCAT(d.first_name, ' ', d.last_name) as driver_name,
-    COUNT(DISTINCT l.lap_number) as total_laps,
-    MIN(l.lap_duration) as fastest_lap,
-    AVG(loc.speed) as avg_speed
-FROM `{PROJECT_ID}.{DATASET_ID}.drivers` d
-LEFT JOIN `{PROJECT_ID}.{DATASET_ID}.laps` l 
-    ON d.driver_number = l.driver_number 
-    AND d.session_key = l.session_key
-LEFT JOIN `{PROJECT_ID}.{DATASET_ID}.locations` loc
-    ON l.driver_number = loc.driver_number
-    AND l.session_key = loc.session_key
-WHERE d.session_key = {session_key}
-  AND l.lap_duration > 0
-GROUP BY d.driver_number, driver_name
-ORDER BY fastest_lap ASC;
-                """)
-        
         print("\n" + "=" * 70)
         print(" Extraction complete! Check BigQuery for your data.")
         print("=" * 70)
