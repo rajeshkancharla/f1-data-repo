@@ -33,3 +33,9 @@
 
 <img width="607" height="339" alt="image" src="https://github.com/user-attachments/assets/5cf5c544-5167-4a67-87eb-8d0d8a874761" />
 <img width="600" height="236" alt="image" src="https://github.com/user-attachments/assets/8955e209-3bc9-431f-9abf-3f39ce52814f" />
+
+---
+
+## CI/CD Pipeline
+
+<img width="610" height="299" alt="image" src="https://github.com/user-attachments/assets/b49e10b9-dd6f-4752-83e8-b062755dd499" />
