@@ -1,0 +1,1132 @@
+2025-11-01 16:22:51 - data_ingestion.data_extractor - INFO - Logging to file: logs\f1_extraction_20251101_162251.log
+2025-11-01 16:22:53 - data_ingestion.data_extractor - INFO - Created dataset plenti-project.f1_raw_data
+2025-11-01 16:22:54 - data_ingestion.data_extractor - INFO - Extracting drivers for session 9896
+2025-11-01 16:22:55 - data_ingestion.data_extractor - INFO - Successfully fetched 20 records from drivers
+2025-11-01 16:22:55 - data_ingestion.data_extractor - INFO - Loading 20 rows to temp table drivers_temp_20251101_052255
+2025-11-01 16:23:00 - data_ingestion.data_extractor - INFO - Main table drivers doesn't exist, will create from temp
+2025-11-01 16:23:02 - data_ingestion.data_extractor - INFO - [OK] Created plenti-project.f1_raw_data.drivers with 20 rows
+2025-11-01 16:23:02 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 1
+2025-11-01 16:23:04 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:23:04 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052304
+2025-11-01 16:23:09 - data_ingestion.data_extractor - INFO - Main table laps doesn't exist, will create from temp
+2025-11-01 16:23:11 - data_ingestion.data_extractor - INFO - [OK] Created plenti-project.f1_raw_data.laps with 62 rows
+2025-11-01 16:23:11 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 4
+2025-11-01 16:23:12 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:23:12 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052312
+2025-11-01 16:23:17 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:23:20 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:23:20 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 5
+2025-11-01 16:23:21 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:23:21 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052321
+2025-11-01 16:23:26 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:23:29 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:23:29 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 6
+2025-11-01 16:23:30 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:23:30 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052330
+2025-11-01 16:23:35 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:23:38 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:23:38 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 10
+2025-11-01 16:23:39 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:23:39 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052339
+2025-11-01 16:23:44 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:23:46 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:23:47 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 12
+2025-11-01 16:23:48 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:23:48 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052348
+2025-11-01 16:23:52 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:23:54 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:23:55 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 14
+2025-11-01 16:23:56 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:23:56 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052356
+2025-11-01 16:24:00 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:24:03 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:24:03 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 16
+2025-11-01 16:24:04 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:24:04 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052404
+2025-11-01 16:24:09 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:24:12 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:24:13 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 18
+2025-11-01 16:24:14 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:24:14 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052414
+2025-11-01 16:24:24 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:24:32 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:24:32 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 22
+2025-11-01 16:24:33 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:24:33 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052433
+2025-11-01 16:24:38 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:24:41 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:24:41 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 23
+2025-11-01 16:24:42 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:24:42 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052442
+2025-11-01 16:24:48 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:24:50 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:24:51 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 27
+2025-11-01 16:24:52 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:24:52 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052452
+2025-11-01 16:24:58 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:01 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:25:01 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 30
+2025-11-01 16:25:02 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:25:02 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052502
+2025-11-01 16:25:07 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:10 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:25:10 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 31
+2025-11-01 16:25:11 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:25:11 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052511
+2025-11-01 16:25:15 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:19 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:25:19 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 43
+2025-11-01 16:25:20 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:25:20 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052520
+2025-11-01 16:25:24 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:27 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:25:27 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 44
+2025-11-01 16:25:28 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:25:28 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052528
+2025-11-01 16:25:32 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:36 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:25:37 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 55
+2025-11-01 16:25:38 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:25:38 - data_ingestion.data_extractor - INFO - Loading 61 rows to temp table laps_temp_20251101_052538
+2025-11-01 16:25:43 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:46 - data_ingestion.data_extractor - INFO - [OK] Merged 61 rows into laps
+2025-11-01 16:25:46 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 63
+2025-11-01 16:25:47 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:25:47 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052547
+2025-11-01 16:25:52 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:25:54 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:25:55 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 81
+2025-11-01 16:25:56 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:25:56 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052556
+2025-11-01 16:26:00 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:26:03 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:26:03 - data_ingestion.data_extractor - INFO - Extracting laps for session 9896, driver 87
+2025-11-01 16:26:04 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:26:04 - data_ingestion.data_extractor - INFO - Loading 62 rows to temp table laps_temp_20251101_052604
+2025-11-01 16:26:08 - data_ingestion.data_extractor - INFO - Executing MERGE for laps
+2025-11-01 16:26:12 - data_ingestion.data_extractor - INFO - [OK] Merged 62 rows into laps
+2025-11-01 16:26:12 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 1
+2025-11-01 16:26:12 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:26:13 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:26:13 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:17.455000+00:00 to 2025-10-05T13:42:23.955000+00:00
+2025-11-01 16:26:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:26:14 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:26:16 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:26:16 - data_ingestion.data_extractor - INFO -     Chunk 2: 1151 points (12:08 - 12:13)
+2025-11-01 16:26:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:26:17 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:26:19 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:26:19 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:26:20 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:26:20 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:26:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:26:22 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:26:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:26:23 - data_ingestion.data_extractor - INFO -     Chunk 7: 1140 points (12:33 - 12:38)
+2025-11-01 16:26:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:26:24 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:26:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:26:26 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:26:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:26:27 - data_ingestion.data_extractor - INFO -     Chunk 10: 1138 points (12:48 - 12:53)
+2025-11-01 16:26:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:26:29 - data_ingestion.data_extractor - INFO -     Chunk 11: 1155 points (12:53 - 12:58)
+2025-11-01 16:26:30 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:26:30 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:26:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:26:32 - data_ingestion.data_extractor - INFO -     Chunk 13: 1143 points (13:03 - 13:08)
+2025-11-01 16:26:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:26:33 - data_ingestion.data_extractor - INFO -     Chunk 14: 1155 points (13:08 - 13:13)
+2025-11-01 16:26:34 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:26:34 - data_ingestion.data_extractor - INFO -     Chunk 15: 1138 points (13:13 - 13:18)
+2025-11-01 16:26:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:26:36 - data_ingestion.data_extractor - INFO -     Chunk 16: 1137 points (13:18 - 13:23)
+2025-11-01 16:26:37 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:26:37 - data_ingestion.data_extractor - INFO -     Chunk 17: 1144 points (13:23 - 13:28)
+2025-11-01 16:26:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:26:38 - data_ingestion.data_extractor - INFO -     Chunk 18: 1156 points (13:28 - 13:33)
+2025-11-01 16:26:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:26:40 - data_ingestion.data_extractor - INFO -     Chunk 19: 1145 points (13:33 - 13:38)
+2025-11-01 16:26:41 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:26:41 - data_ingestion.data_extractor - INFO -     Chunk 20: 1144 points (13:38 - 13:43)
+2025-11-01 16:26:42 - data_ingestion.data_extractor - INFO - Successfully fetched 244 records from location
+2025-11-01 16:26:42 - data_ingestion.data_extractor - INFO -     Chunk 21: 244 points (13:43 - 13:44)
+2025-11-01 16:26:42 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23205
+2025-11-01 16:26:42 - data_ingestion.data_extractor - INFO - Loading 23205 rows to temp table locations_temp_driver1_20251101_052642
+2025-11-01 16:26:50 - data_ingestion.data_extractor - INFO - Main table locations doesn't exist, will create from temp
+2025-11-01 16:26:52 - data_ingestion.data_extractor - INFO - [OK] Created plenti-project.f1_raw_data.locations with 23205 rows
+2025-11-01 16:26:53 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23205 location records for driver 1
+2025-11-01 16:26:53 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 4
+2025-11-01 16:26:53 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:26:54 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:26:54 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:18.141000+00:00 to 2025-10-05T13:42:24.719000+00:00
+2025-11-01 16:26:55 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:26:55 - data_ingestion.data_extractor - INFO -     Chunk 1: 1150 points (12:03 - 12:08)
+2025-11-01 16:26:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:26:56 - data_ingestion.data_extractor - INFO -     Chunk 2: 1151 points (12:08 - 12:13)
+2025-11-01 16:26:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:26:58 - data_ingestion.data_extractor - INFO -     Chunk 3: 1156 points (12:13 - 12:18)
+2025-11-01 16:26:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:26:59 - data_ingestion.data_extractor - INFO -     Chunk 4: 1159 points (12:18 - 12:23)
+2025-11-01 16:27:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:27:01 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:27:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:27:02 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:27:03 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:27:03 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:27:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:27:05 - data_ingestion.data_extractor - INFO -     Chunk 8: 1155 points (12:38 - 12:43)
+2025-11-01 16:27:06 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:27:06 - data_ingestion.data_extractor - INFO -     Chunk 9: 1149 points (12:43 - 12:48)
+2025-11-01 16:27:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:27:07 - data_ingestion.data_extractor - INFO -     Chunk 10: 1138 points (12:48 - 12:53)
+2025-11-01 16:27:09 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:27:09 - data_ingestion.data_extractor - INFO -     Chunk 11: 1156 points (12:53 - 12:58)
+2025-11-01 16:27:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1133 records from location
+2025-11-01 16:27:10 - data_ingestion.data_extractor - INFO -     Chunk 12: 1133 points (12:58 - 13:03)
+2025-11-01 16:27:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:27:12 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:27:13 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:27:13 - data_ingestion.data_extractor - INFO -     Chunk 14: 1154 points (13:08 - 13:13)
+2025-11-01 16:27:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:27:14 - data_ingestion.data_extractor - INFO -     Chunk 15: 1138 points (13:13 - 13:18)
+2025-11-01 16:27:16 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:27:16 - data_ingestion.data_extractor - INFO -     Chunk 16: 1135 points (13:18 - 13:23)
+2025-11-01 16:27:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:27:17 - data_ingestion.data_extractor - INFO -     Chunk 17: 1146 points (13:23 - 13:28)
+2025-11-01 16:27:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:27:18 - data_ingestion.data_extractor - INFO -     Chunk 18: 1155 points (13:28 - 13:33)
+2025-11-01 16:27:20 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:27:20 - data_ingestion.data_extractor - INFO -     Chunk 19: 1146 points (13:33 - 13:38)
+2025-11-01 16:27:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:27:21 - data_ingestion.data_extractor - INFO -     Chunk 20: 1143 points (13:38 - 13:43)
+2025-11-01 16:27:22 - data_ingestion.data_extractor - INFO - Successfully fetched 246 records from location
+2025-11-01 16:27:22 - data_ingestion.data_extractor - INFO -     Chunk 21: 246 points (13:43 - 13:44)
+2025-11-01 16:27:22 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23206
+2025-11-01 16:27:22 - data_ingestion.data_extractor - INFO - Loading 23206 rows to temp table locations_temp_driver4_20251101_052722
+2025-11-01 16:27:32 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:27:35 - data_ingestion.data_extractor - INFO - [OK] Merged 23206 rows into locations
+2025-11-01 16:27:35 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23206 location records for driver 4
+2025-11-01 16:27:35 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 5
+2025-11-01 16:27:35 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:27:36 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:27:36 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:26.503000+00:00 to 2025-10-05T13:43:02.800000+00:00
+2025-11-01 16:27:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:27:38 - data_ingestion.data_extractor - INFO -     Chunk 1: 1149 points (12:03 - 12:08)
+2025-11-01 16:27:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:27:39 - data_ingestion.data_extractor - INFO -     Chunk 2: 1154 points (12:08 - 12:13)
+2025-11-01 16:27:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:27:40 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:27:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1161 records from location
+2025-11-01 16:27:42 - data_ingestion.data_extractor - INFO -     Chunk 4: 1161 points (12:18 - 12:23)
+2025-11-01 16:27:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:27:43 - data_ingestion.data_extractor - INFO -     Chunk 5: 1154 points (12:23 - 12:28)
+2025-11-01 16:27:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1157 records from location
+2025-11-01 16:27:45 - data_ingestion.data_extractor - INFO -     Chunk 6: 1157 points (12:28 - 12:33)
+2025-11-01 16:27:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:27:47 - data_ingestion.data_extractor - INFO -     Chunk 7: 1137 points (12:33 - 12:38)
+2025-11-01 16:27:48 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:27:48 - data_ingestion.data_extractor - INFO -     Chunk 8: 1155 points (12:38 - 12:43)
+2025-11-01 16:27:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:27:49 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:27:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:27:51 - data_ingestion.data_extractor - INFO -     Chunk 10: 1139 points (12:48 - 12:53)
+2025-11-01 16:27:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:27:52 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:27:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:27:54 - data_ingestion.data_extractor - INFO -     Chunk 12: 1136 points (12:58 - 13:03)
+2025-11-01 16:27:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:27:56 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:27:57 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:27:57 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:27:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:27:58 - data_ingestion.data_extractor - INFO -     Chunk 15: 1147 points (13:13 - 13:18)
+2025-11-01 16:28:00 - data_ingestion.data_extractor - INFO - Successfully fetched 1128 records from location
+2025-11-01 16:28:00 - data_ingestion.data_extractor - INFO -     Chunk 16: 1128 points (13:18 - 13:23)
+2025-11-01 16:28:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:28:01 - data_ingestion.data_extractor - INFO -     Chunk 17: 1151 points (13:23 - 13:28)
+2025-11-01 16:28:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:28:02 - data_ingestion.data_extractor - INFO -     Chunk 18: 1149 points (13:28 - 13:33)
+2025-11-01 16:28:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:28:04 - data_ingestion.data_extractor - INFO -     Chunk 19: 1149 points (13:33 - 13:38)
+2025-11-01 16:28:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:28:05 - data_ingestion.data_extractor - INFO -     Chunk 20: 1146 points (13:38 - 13:43)
+2025-11-01 16:28:06 - data_ingestion.data_extractor - INFO - Successfully fetched 361 records from location
+2025-11-01 16:28:06 - data_ingestion.data_extractor - INFO -     Chunk 21: 361 points (13:43 - 13:45)
+2025-11-01 16:28:06 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23323
+2025-11-01 16:28:06 - data_ingestion.data_extractor - INFO - Loading 23323 rows to temp table locations_temp_driver5_20251101_052806
+2025-11-01 16:28:15 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:28:18 - data_ingestion.data_extractor - INFO - [OK] Merged 23323 rows into locations
+2025-11-01 16:28:18 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23323 location records for driver 5
+2025-11-01 16:28:18 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 6
+2025-11-01 16:28:18 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:28:19 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:28:19 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:21.971000+00:00 to 2025-10-05T13:42:34.627000+00:00
+2025-11-01 16:28:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:28:21 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:28:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:28:22 - data_ingestion.data_extractor - INFO -     Chunk 2: 1153 points (12:08 - 12:13)
+2025-11-01 16:28:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:28:24 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:28:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:28:25 - data_ingestion.data_extractor - INFO -     Chunk 4: 1159 points (12:18 - 12:23)
+2025-11-01 16:28:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:28:26 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:28:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:28:28 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:28:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:28:29 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:28:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:28:31 - data_ingestion.data_extractor - INFO -     Chunk 8: 1155 points (12:38 - 12:43)
+2025-11-01 16:28:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:28:32 - data_ingestion.data_extractor - INFO -     Chunk 9: 1146 points (12:43 - 12:48)
+2025-11-01 16:28:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:28:33 - data_ingestion.data_extractor - INFO -     Chunk 10: 1142 points (12:48 - 12:53)
+2025-11-01 16:28:34 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:28:34 - data_ingestion.data_extractor - INFO -     Chunk 11: 1152 points (12:53 - 12:58)
+2025-11-01 16:28:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:28:36 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:28:37 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:28:37 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:28:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:28:39 - data_ingestion.data_extractor - INFO -     Chunk 14: 1150 points (13:08 - 13:13)
+2025-11-01 16:28:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:28:40 - data_ingestion.data_extractor - INFO -     Chunk 15: 1144 points (13:13 - 13:18)
+2025-11-01 16:28:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1130 records from location
+2025-11-01 16:28:42 - data_ingestion.data_extractor - INFO -     Chunk 16: 1130 points (13:18 - 13:23)
+2025-11-01 16:28:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:28:43 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:28:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:28:44 - data_ingestion.data_extractor - INFO -     Chunk 18: 1155 points (13:28 - 13:33)
+2025-11-01 16:28:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:28:46 - data_ingestion.data_extractor - INFO -     Chunk 19: 1145 points (13:33 - 13:38)
+2025-11-01 16:28:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:28:47 - data_ingestion.data_extractor - INFO -     Chunk 20: 1145 points (13:38 - 13:43)
+2025-11-01 16:28:48 - data_ingestion.data_extractor - INFO - Successfully fetched 266 records from location
+2025-11-01 16:28:48 - data_ingestion.data_extractor - INFO -     Chunk 21: 266 points (13:43 - 13:44)
+2025-11-01 16:28:48 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23228
+2025-11-01 16:28:48 - data_ingestion.data_extractor - INFO - Loading 23228 rows to temp table locations_temp_driver6_20251101_052848
+2025-11-01 16:28:57 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:29:00 - data_ingestion.data_extractor - INFO - [OK] Merged 23228 rows into locations
+2025-11-01 16:29:00 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23228 location records for driver 6
+2025-11-01 16:29:00 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 10
+2025-11-01 16:29:00 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:29:01 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:29:01 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:28.912000+00:00 to 2025-10-05T13:43:04.287000+00:00
+2025-11-01 16:29:03 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:29:03 - data_ingestion.data_extractor - INFO -     Chunk 1: 1147 points (12:03 - 12:08)
+2025-11-01 16:29:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:29:04 - data_ingestion.data_extractor - INFO -     Chunk 2: 1155 points (12:08 - 12:13)
+2025-11-01 16:29:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:29:05 - data_ingestion.data_extractor - INFO -     Chunk 3: 1152 points (12:13 - 12:18)
+2025-11-01 16:29:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1163 records from location
+2025-11-01 16:29:07 - data_ingestion.data_extractor - INFO -     Chunk 4: 1163 points (12:18 - 12:23)
+2025-11-01 16:29:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:29:08 - data_ingestion.data_extractor - INFO -     Chunk 5: 1153 points (12:23 - 12:28)
+2025-11-01 16:29:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:29:10 - data_ingestion.data_extractor - INFO -     Chunk 6: 1159 points (12:28 - 12:33)
+2025-11-01 16:29:11 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:29:11 - data_ingestion.data_extractor - INFO -     Chunk 7: 1136 points (12:33 - 12:38)
+2025-11-01 16:29:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:29:15 - data_ingestion.data_extractor - INFO -     Chunk 8: 1153 points (12:38 - 12:43)
+2025-11-01 16:29:16 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:29:16 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:29:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:29:18 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:29:19 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:29:19 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:29:20 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:29:20 - data_ingestion.data_extractor - INFO -     Chunk 12: 1137 points (12:58 - 13:03)
+2025-11-01 16:29:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:29:22 - data_ingestion.data_extractor - INFO -     Chunk 13: 1143 points (13:03 - 13:08)
+2025-11-01 16:29:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:29:23 - data_ingestion.data_extractor - INFO -     Chunk 14: 1152 points (13:08 - 13:13)
+2025-11-01 16:29:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:29:24 - data_ingestion.data_extractor - INFO -     Chunk 15: 1143 points (13:13 - 13:18)
+2025-11-01 16:29:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:29:26 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:29:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:29:27 - data_ingestion.data_extractor - INFO -     Chunk 17: 1148 points (13:23 - 13:28)
+2025-11-01 16:29:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:29:29 - data_ingestion.data_extractor - INFO -     Chunk 18: 1153 points (13:28 - 13:33)
+2025-11-01 16:29:30 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:29:30 - data_ingestion.data_extractor - INFO -     Chunk 19: 1148 points (13:33 - 13:38)
+2025-11-01 16:29:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:29:31 - data_ingestion.data_extractor - INFO -     Chunk 20: 1148 points (13:38 - 13:43)
+2025-11-01 16:29:32 - data_ingestion.data_extractor - INFO - Successfully fetched 358 records from location
+2025-11-01 16:29:32 - data_ingestion.data_extractor - INFO -     Chunk 21: 358 points (13:43 - 13:45)
+2025-11-01 16:29:32 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23320
+2025-11-01 16:29:33 - data_ingestion.data_extractor - INFO - Loading 23320 rows to temp table locations_temp_driver10_20251101_052933
+2025-11-01 16:29:40 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:29:43 - data_ingestion.data_extractor - INFO - [OK] Merged 23320 rows into locations
+2025-11-01 16:29:44 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23320 location records for driver 10
+2025-11-01 16:29:44 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 12
+2025-11-01 16:29:44 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:29:45 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:29:45 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:20.353000+00:00 to 2025-10-05T13:42:49.287000+00:00
+2025-11-01 16:29:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:29:46 - data_ingestion.data_extractor - INFO -     Chunk 1: 1150 points (12:03 - 12:08)
+2025-11-01 16:29:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:29:47 - data_ingestion.data_extractor - INFO -     Chunk 2: 1152 points (12:08 - 12:13)
+2025-11-01 16:29:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:29:49 - data_ingestion.data_extractor - INFO -     Chunk 3: 1156 points (12:13 - 12:18)
+2025-11-01 16:29:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:29:50 - data_ingestion.data_extractor - INFO -     Chunk 4: 1159 points (12:18 - 12:23)
+2025-11-01 16:29:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:29:52 - data_ingestion.data_extractor - INFO -     Chunk 5: 1155 points (12:23 - 12:28)
+2025-11-01 16:29:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:29:53 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:29:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:29:54 - data_ingestion.data_extractor - INFO -     Chunk 7: 1140 points (12:33 - 12:38)
+2025-11-01 16:29:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:29:56 - data_ingestion.data_extractor - INFO -     Chunk 8: 1155 points (12:38 - 12:43)
+2025-11-01 16:29:57 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:29:57 - data_ingestion.data_extractor - INFO -     Chunk 9: 1147 points (12:43 - 12:48)
+2025-11-01 16:29:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1141 records from location
+2025-11-01 16:29:58 - data_ingestion.data_extractor - INFO -     Chunk 10: 1141 points (12:48 - 12:53)
+2025-11-01 16:30:00 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:30:00 - data_ingestion.data_extractor - INFO -     Chunk 11: 1154 points (12:53 - 12:58)
+2025-11-01 16:30:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:30:01 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:30:03 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:30:03 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:30:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:30:04 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:30:06 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:30:06 - data_ingestion.data_extractor - INFO -     Chunk 15: 1142 points (13:13 - 13:18)
+2025-11-01 16:30:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:30:07 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:30:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:30:08 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:30:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:30:10 - data_ingestion.data_extractor - INFO -     Chunk 18: 1155 points (13:28 - 13:33)
+2025-11-01 16:30:11 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:30:11 - data_ingestion.data_extractor - INFO -     Chunk 19: 1146 points (13:33 - 13:38)
+2025-11-01 16:30:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:30:12 - data_ingestion.data_extractor - INFO -     Chunk 20: 1143 points (13:38 - 13:43)
+2025-11-01 16:30:13 - data_ingestion.data_extractor - INFO - Successfully fetched 331 records from location
+2025-11-01 16:30:13 - data_ingestion.data_extractor - INFO -     Chunk 21: 331 points (13:43 - 13:44)
+2025-11-01 16:30:13 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23292
+2025-11-01 16:30:14 - data_ingestion.data_extractor - INFO - Loading 23292 rows to temp table locations_temp_driver12_20251101_053013
+2025-11-01 16:30:23 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:30:26 - data_ingestion.data_extractor - INFO - [OK] Merged 23292 rows into locations
+2025-11-01 16:30:27 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23292 location records for driver 12
+2025-11-01 16:30:27 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 14
+2025-11-01 16:30:27 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:30:28 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:30:28 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:22.675000+00:00 to 2025-10-05T13:43:39.436000+00:00
+2025-11-01 16:30:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:30:29 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:30:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:30:31 - data_ingestion.data_extractor - INFO -     Chunk 2: 1152 points (12:08 - 12:13)
+2025-11-01 16:30:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:30:32 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:30:34 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:30:34 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:30:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:30:35 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:30:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:30:36 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:30:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:30:38 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:30:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:30:39 - data_ingestion.data_extractor - INFO -     Chunk 8: 1155 points (12:38 - 12:43)
+2025-11-01 16:30:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:30:40 - data_ingestion.data_extractor - INFO -     Chunk 9: 1147 points (12:43 - 12:48)
+2025-11-01 16:30:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1141 records from location
+2025-11-01 16:30:42 - data_ingestion.data_extractor - INFO -     Chunk 10: 1141 points (12:48 - 12:53)
+2025-11-01 16:30:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:30:43 - data_ingestion.data_extractor - INFO -     Chunk 11: 1152 points (12:53 - 12:58)
+2025-11-01 16:30:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:30:44 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:30:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:30:46 - data_ingestion.data_extractor - INFO -     Chunk 13: 1146 points (13:03 - 13:08)
+2025-11-01 16:30:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:30:47 - data_ingestion.data_extractor - INFO -     Chunk 14: 1150 points (13:08 - 13:13)
+2025-11-01 16:30:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:30:49 - data_ingestion.data_extractor - INFO -     Chunk 15: 1143 points (13:13 - 13:18)
+2025-11-01 16:30:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:30:50 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:30:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:30:51 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:30:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:30:53 - data_ingestion.data_extractor - INFO -     Chunk 18: 1153 points (13:28 - 13:33)
+2025-11-01 16:30:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:30:54 - data_ingestion.data_extractor - INFO -     Chunk 19: 1146 points (13:33 - 13:38)
+2025-11-01 16:30:55 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:30:55 - data_ingestion.data_extractor - INFO -     Chunk 20: 1146 points (13:38 - 13:43)
+2025-11-01 16:30:56 - data_ingestion.data_extractor - INFO - Successfully fetched 514 records from location
+2025-11-01 16:30:56 - data_ingestion.data_extractor - INFO -     Chunk 21: 514 points (13:43 - 13:45)
+2025-11-01 16:30:57 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23476
+2025-11-01 16:30:57 - data_ingestion.data_extractor - INFO - Loading 23476 rows to temp table locations_temp_driver14_20251101_053057
+2025-11-01 16:31:05 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:31:08 - data_ingestion.data_extractor - INFO - [OK] Merged 23476 rows into locations
+2025-11-01 16:31:09 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23476 location records for driver 14
+2025-11-01 16:31:09 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 16
+2025-11-01 16:31:09 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:31:10 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:31:10 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:20.151000+00:00 to 2025-10-05T13:43:01.381000+00:00
+2025-11-01 16:31:11 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:31:11 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:31:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:31:12 - data_ingestion.data_extractor - INFO -     Chunk 2: 1151 points (12:08 - 12:13)
+2025-11-01 16:31:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:31:14 - data_ingestion.data_extractor - INFO -     Chunk 3: 1156 points (12:13 - 12:18)
+2025-11-01 16:31:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:31:15 - data_ingestion.data_extractor - INFO -     Chunk 4: 1159 points (12:18 - 12:23)
+2025-11-01 16:31:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:31:17 - data_ingestion.data_extractor - INFO -     Chunk 5: 1154 points (12:23 - 12:28)
+2025-11-01 16:31:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1158 records from location
+2025-11-01 16:31:18 - data_ingestion.data_extractor - INFO -     Chunk 6: 1158 points (12:28 - 12:33)
+2025-11-01 16:31:20 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:31:20 - data_ingestion.data_extractor - INFO -     Chunk 7: 1140 points (12:33 - 12:38)
+2025-11-01 16:31:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:31:21 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:31:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:31:22 - data_ingestion.data_extractor - INFO -     Chunk 9: 1147 points (12:43 - 12:48)
+2025-11-01 16:31:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1141 records from location
+2025-11-01 16:31:24 - data_ingestion.data_extractor - INFO -     Chunk 10: 1141 points (12:48 - 12:53)
+2025-11-01 16:31:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:31:25 - data_ingestion.data_extractor - INFO -     Chunk 11: 1154 points (12:53 - 12:58)
+2025-11-01 16:31:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:31:26 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:31:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:31:28 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:31:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:31:29 - data_ingestion.data_extractor - INFO -     Chunk 14: 1150 points (13:08 - 13:13)
+2025-11-01 16:31:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:31:31 - data_ingestion.data_extractor - INFO -     Chunk 15: 1142 points (13:13 - 13:18)
+2025-11-01 16:31:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1132 records from location
+2025-11-01 16:31:32 - data_ingestion.data_extractor - INFO -     Chunk 16: 1132 points (13:18 - 13:23)
+2025-11-01 16:31:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:31:33 - data_ingestion.data_extractor - INFO -     Chunk 17: 1149 points (13:23 - 13:28)
+2025-11-01 16:31:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:31:35 - data_ingestion.data_extractor - INFO -     Chunk 18: 1155 points (13:28 - 13:33)
+2025-11-01 16:31:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:31:36 - data_ingestion.data_extractor - INFO -     Chunk 19: 1146 points (13:33 - 13:38)
+2025-11-01 16:31:37 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:31:37 - data_ingestion.data_extractor - INFO -     Chunk 20: 1143 points (13:38 - 13:43)
+2025-11-01 16:31:38 - data_ingestion.data_extractor - INFO - Successfully fetched 382 records from location
+2025-11-01 16:31:38 - data_ingestion.data_extractor - INFO -     Chunk 21: 382 points (13:43 - 13:45)
+2025-11-01 16:31:39 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23343
+2025-11-01 16:31:39 - data_ingestion.data_extractor - INFO - Loading 23343 rows to temp table locations_temp_driver16_20251101_053139
+2025-11-01 16:31:45 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:31:48 - data_ingestion.data_extractor - INFO - [OK] Merged 23343 rows into locations
+2025-11-01 16:31:48 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23343 location records for driver 16
+2025-11-01 16:31:48 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 18
+2025-11-01 16:31:48 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:31:49 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:31:49 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:26.308000+00:00 to 2025-10-05T13:42:43.400000+00:00
+2025-11-01 16:31:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:31:51 - data_ingestion.data_extractor - INFO -     Chunk 1: 1149 points (12:03 - 12:08)
+2025-11-01 16:31:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:31:52 - data_ingestion.data_extractor - INFO -     Chunk 2: 1153 points (12:08 - 12:13)
+2025-11-01 16:31:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:31:53 - data_ingestion.data_extractor - INFO -     Chunk 3: 1155 points (12:13 - 12:18)
+2025-11-01 16:31:55 - data_ingestion.data_extractor - INFO - Successfully fetched 1161 records from location
+2025-11-01 16:31:55 - data_ingestion.data_extractor - INFO -     Chunk 4: 1161 points (12:18 - 12:23)
+2025-11-01 16:31:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:31:56 - data_ingestion.data_extractor - INFO -     Chunk 5: 1153 points (12:23 - 12:28)
+2025-11-01 16:31:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1157 records from location
+2025-11-01 16:31:58 - data_ingestion.data_extractor - INFO -     Chunk 6: 1157 points (12:28 - 12:33)
+2025-11-01 16:31:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:31:59 - data_ingestion.data_extractor - INFO -     Chunk 7: 1138 points (12:33 - 12:38)
+2025-11-01 16:32:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:32:01 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:32:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:02 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:32:03 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:32:03 - data_ingestion.data_extractor - INFO -     Chunk 10: 1139 points (12:48 - 12:53)
+2025-11-01 16:32:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:32:05 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:32:06 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:32:06 - data_ingestion.data_extractor - INFO -     Chunk 12: 1137 points (12:58 - 13:03)
+2025-11-01 16:32:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:32:08 - data_ingestion.data_extractor - INFO -     Chunk 13: 1143 points (13:03 - 13:08)
+2025-11-01 16:32:09 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:32:09 - data_ingestion.data_extractor - INFO -     Chunk 14: 1152 points (13:08 - 13:13)
+2025-11-01 16:32:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:32:10 - data_ingestion.data_extractor - INFO -     Chunk 15: 1145 points (13:13 - 13:18)
+2025-11-01 16:32:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1130 records from location
+2025-11-01 16:32:12 - data_ingestion.data_extractor - INFO -     Chunk 16: 1130 points (13:18 - 13:23)
+2025-11-01 16:32:13 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:13 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:32:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:15 - data_ingestion.data_extractor - INFO -     Chunk 18: 1150 points (13:28 - 13:33)
+2025-11-01 16:32:16 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:32:16 - data_ingestion.data_extractor - INFO -     Chunk 19: 1148 points (13:33 - 13:38)
+2025-11-01 16:32:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:32:18 - data_ingestion.data_extractor - INFO -     Chunk 20: 1147 points (13:38 - 13:43)
+2025-11-01 16:32:19 - data_ingestion.data_extractor - INFO - Successfully fetched 285 records from location
+2025-11-01 16:32:19 - data_ingestion.data_extractor - INFO -     Chunk 21: 285 points (13:43 - 13:44)
+2025-11-01 16:32:19 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23247
+2025-11-01 16:32:19 - data_ingestion.data_extractor - INFO - Loading 23247 rows to temp table locations_temp_driver18_20251101_053219
+2025-11-01 16:32:28 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:32:31 - data_ingestion.data_extractor - INFO - [OK] Merged 23247 rows into locations
+2025-11-01 16:32:31 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23247 location records for driver 18
+2025-11-01 16:32:31 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 22
+2025-11-01 16:32:31 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:32:32 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:32:32 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:27.662000+00:00 to 2025-10-05T13:42:37+00:00
+2025-11-01 16:32:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:32:33 - data_ingestion.data_extractor - INFO -     Chunk 1: 1147 points (12:03 - 12:08)
+2025-11-01 16:32:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:32:35 - data_ingestion.data_extractor - INFO -     Chunk 2: 1155 points (12:08 - 12:13)
+2025-11-01 16:32:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:32:36 - data_ingestion.data_extractor - INFO -     Chunk 3: 1152 points (12:13 - 12:18)
+2025-11-01 16:32:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1164 records from location
+2025-11-01 16:32:38 - data_ingestion.data_extractor - INFO -     Chunk 4: 1164 points (12:18 - 12:23)
+2025-11-01 16:32:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:32:39 - data_ingestion.data_extractor - INFO -     Chunk 5: 1152 points (12:23 - 12:28)
+2025-11-01 16:32:41 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:32:41 - data_ingestion.data_extractor - INFO -     Chunk 6: 1159 points (12:28 - 12:33)
+2025-11-01 16:32:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:32:42 - data_ingestion.data_extractor - INFO -     Chunk 7: 1136 points (12:33 - 12:38)
+2025-11-01 16:32:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:32:43 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:32:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:45 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:32:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:32:46 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:32:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:47 - data_ingestion.data_extractor - INFO -     Chunk 11: 1150 points (12:53 - 12:58)
+2025-11-01 16:32:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:32:49 - data_ingestion.data_extractor - INFO -     Chunk 12: 1136 points (12:58 - 13:03)
+2025-11-01 16:32:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:32:50 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:32:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:32:52 - data_ingestion.data_extractor - INFO -     Chunk 14: 1152 points (13:08 - 13:13)
+2025-11-01 16:32:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:32:53 - data_ingestion.data_extractor - INFO -     Chunk 15: 1146 points (13:13 - 13:18)
+2025-11-01 16:32:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1129 records from location
+2025-11-01 16:32:54 - data_ingestion.data_extractor - INFO -     Chunk 16: 1129 points (13:18 - 13:23)
+2025-11-01 16:32:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:56 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:32:57 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:32:57 - data_ingestion.data_extractor - INFO -     Chunk 18: 1150 points (13:28 - 13:33)
+2025-11-01 16:32:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:32:59 - data_ingestion.data_extractor - INFO -     Chunk 19: 1148 points (13:33 - 13:38)
+2025-11-01 16:33:00 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:33:00 - data_ingestion.data_extractor - INFO -     Chunk 20: 1147 points (13:38 - 13:43)
+2025-11-01 16:33:01 - data_ingestion.data_extractor - INFO - Successfully fetched 253 records from location
+2025-11-01 16:33:01 - data_ingestion.data_extractor - INFO -     Chunk 21: 253 points (13:43 - 13:44)
+2025-11-01 16:33:01 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23214
+2025-11-01 16:33:01 - data_ingestion.data_extractor - INFO - Loading 23214 rows to temp table locations_temp_driver22_20251101_053301
+2025-11-01 16:33:10 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:33:13 - data_ingestion.data_extractor - INFO - [OK] Merged 23214 rows into locations
+2025-11-01 16:33:13 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23214 location records for driver 22
+2025-11-01 16:33:13 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 23
+2025-11-01 16:33:13 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:33:14 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:33:14 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:29.380000+00:00 to 2025-10-05T13:42:44.482000+00:00
+2025-11-01 16:33:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:33:15 - data_ingestion.data_extractor - INFO -     Chunk 1: 1147 points (12:03 - 12:08)
+2025-11-01 16:33:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:33:17 - data_ingestion.data_extractor - INFO -     Chunk 2: 1155 points (12:08 - 12:13)
+2025-11-01 16:33:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:33:18 - data_ingestion.data_extractor - INFO -     Chunk 3: 1152 points (12:13 - 12:18)
+2025-11-01 16:33:20 - data_ingestion.data_extractor - INFO - Successfully fetched 1163 records from location
+2025-11-01 16:33:20 - data_ingestion.data_extractor - INFO -     Chunk 4: 1163 points (12:18 - 12:23)
+2025-11-01 16:33:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:33:21 - data_ingestion.data_extractor - INFO -     Chunk 5: 1154 points (12:23 - 12:28)
+2025-11-01 16:33:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1158 records from location
+2025-11-01 16:33:22 - data_ingestion.data_extractor - INFO -     Chunk 6: 1158 points (12:28 - 12:33)
+2025-11-01 16:33:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:33:24 - data_ingestion.data_extractor - INFO -     Chunk 7: 1136 points (12:33 - 12:38)
+2025-11-01 16:33:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:33:25 - data_ingestion.data_extractor - INFO -     Chunk 8: 1153 points (12:38 - 12:43)
+2025-11-01 16:33:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:33:27 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:33:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:33:28 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:33:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:33:29 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:33:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:33:31 - data_ingestion.data_extractor - INFO -     Chunk 12: 1136 points (12:58 - 13:03)
+2025-11-01 16:33:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:33:32 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:33:34 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:33:34 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:33:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:33:35 - data_ingestion.data_extractor - INFO -     Chunk 15: 1144 points (13:13 - 13:18)
+2025-11-01 16:33:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1132 records from location
+2025-11-01 16:33:36 - data_ingestion.data_extractor - INFO -     Chunk 16: 1132 points (13:18 - 13:23)
+2025-11-01 16:33:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:33:38 - data_ingestion.data_extractor - INFO -     Chunk 17: 1146 points (13:23 - 13:28)
+2025-11-01 16:33:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:33:39 - data_ingestion.data_extractor - INFO -     Chunk 18: 1153 points (13:28 - 13:33)
+2025-11-01 16:33:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:33:40 - data_ingestion.data_extractor - INFO -     Chunk 19: 1149 points (13:33 - 13:38)
+2025-11-01 16:33:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:33:42 - data_ingestion.data_extractor - INFO -     Chunk 20: 1149 points (13:38 - 13:43)
+2025-11-01 16:33:43 - data_ingestion.data_extractor - INFO - Successfully fetched 275 records from location
+2025-11-01 16:33:43 - data_ingestion.data_extractor - INFO -     Chunk 21: 275 points (13:43 - 13:44)
+2025-11-01 16:33:43 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23238
+2025-11-01 16:33:43 - data_ingestion.data_extractor - INFO - Loading 23238 rows to temp table locations_temp_driver23_20251101_053343
+2025-11-01 16:33:50 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:33:54 - data_ingestion.data_extractor - INFO - [OK] Merged 23238 rows into locations
+2025-11-01 16:33:54 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23238 location records for driver 23
+2025-11-01 16:33:54 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 27
+2025-11-01 16:33:54 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:33:55 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:33:55 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:23.949000+00:00 to 2025-10-05T13:43:03.848000+00:00
+2025-11-01 16:33:57 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:33:57 - data_ingestion.data_extractor - INFO -     Chunk 1: 1149 points (12:03 - 12:08)
+2025-11-01 16:33:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:33:58 - data_ingestion.data_extractor - INFO -     Chunk 2: 1154 points (12:08 - 12:13)
+2025-11-01 16:33:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:33:59 - data_ingestion.data_extractor - INFO -     Chunk 3: 1153 points (12:13 - 12:18)
+2025-11-01 16:34:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:34:01 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:34:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:34:02 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:34:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:34:04 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:34:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:34:05 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:34:06 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:34:06 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:34:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:34:08 - data_ingestion.data_extractor - INFO -     Chunk 9: 1148 points (12:43 - 12:48)
+2025-11-01 16:34:09 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:34:09 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:34:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:34:10 - data_ingestion.data_extractor - INFO -     Chunk 11: 1153 points (12:53 - 12:58)
+2025-11-01 16:34:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:34:12 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:34:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:34:14 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:34:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:34:15 - data_ingestion.data_extractor - INFO -     Chunk 14: 1150 points (13:08 - 13:13)
+2025-11-01 16:34:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:34:17 - data_ingestion.data_extractor - INFO -     Chunk 15: 1146 points (13:13 - 13:18)
+2025-11-01 16:34:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1129 records from location
+2025-11-01 16:34:18 - data_ingestion.data_extractor - INFO -     Chunk 16: 1129 points (13:18 - 13:23)
+2025-11-01 16:34:19 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:34:19 - data_ingestion.data_extractor - INFO -     Chunk 17: 1151 points (13:23 - 13:28)
+2025-11-01 16:34:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:34:21 - data_ingestion.data_extractor - INFO -     Chunk 18: 1152 points (13:28 - 13:33)
+2025-11-01 16:34:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:34:22 - data_ingestion.data_extractor - INFO -     Chunk 19: 1147 points (13:33 - 13:38)
+2025-11-01 16:34:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:34:23 - data_ingestion.data_extractor - INFO -     Chunk 20: 1145 points (13:38 - 13:43)
+2025-11-01 16:34:24 - data_ingestion.data_extractor - INFO - Successfully fetched 377 records from location
+2025-11-01 16:34:24 - data_ingestion.data_extractor - INFO -     Chunk 21: 377 points (13:43 - 13:45)
+2025-11-01 16:34:25 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23338
+2025-11-01 16:34:25 - data_ingestion.data_extractor - INFO - Loading 23338 rows to temp table locations_temp_driver27_20251101_053425
+2025-11-01 16:34:33 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:34:36 - data_ingestion.data_extractor - INFO - [OK] Merged 23338 rows into locations
+2025-11-01 16:34:36 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23338 location records for driver 27
+2025-11-01 16:34:36 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 30
+2025-11-01 16:34:36 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:34:37 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:34:37 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:24.554000+00:00 to 2025-10-05T13:42:46.435000+00:00
+2025-11-01 16:34:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:34:39 - data_ingestion.data_extractor - INFO -     Chunk 1: 1148 points (12:03 - 12:08)
+2025-11-01 16:34:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:34:40 - data_ingestion.data_extractor - INFO -     Chunk 2: 1154 points (12:08 - 12:13)
+2025-11-01 16:34:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:34:42 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:34:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:34:43 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:34:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:34:44 - data_ingestion.data_extractor - INFO -     Chunk 5: 1155 points (12:23 - 12:28)
+2025-11-01 16:34:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:34:46 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:34:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:34:47 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:34:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:34:49 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:34:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:34:50 - data_ingestion.data_extractor - INFO -     Chunk 9: 1149 points (12:43 - 12:48)
+2025-11-01 16:34:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:34:51 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:34:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:34:53 - data_ingestion.data_extractor - INFO -     Chunk 11: 1152 points (12:53 - 12:58)
+2025-11-01 16:34:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:34:54 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:34:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:34:56 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:34:57 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:34:57 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:34:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:34:58 - data_ingestion.data_extractor - INFO -     Chunk 15: 1145 points (13:13 - 13:18)
+2025-11-01 16:35:00 - data_ingestion.data_extractor - INFO - Successfully fetched 1130 records from location
+2025-11-01 16:35:00 - data_ingestion.data_extractor - INFO -     Chunk 16: 1130 points (13:18 - 13:23)
+2025-11-01 16:35:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:35:01 - data_ingestion.data_extractor - INFO -     Chunk 17: 1151 points (13:23 - 13:28)
+2025-11-01 16:35:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:35:02 - data_ingestion.data_extractor - INFO -     Chunk 18: 1149 points (13:28 - 13:33)
+2025-11-01 16:35:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:35:04 - data_ingestion.data_extractor - INFO -     Chunk 19: 1149 points (13:33 - 13:38)
+2025-11-01 16:35:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:35:05 - data_ingestion.data_extractor - INFO -     Chunk 20: 1146 points (13:38 - 13:43)
+2025-11-01 16:35:06 - data_ingestion.data_extractor - INFO - Successfully fetched 303 records from location
+2025-11-01 16:35:06 - data_ingestion.data_extractor - INFO -     Chunk 21: 303 points (13:43 - 13:44)
+2025-11-01 16:35:06 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23264
+2025-11-01 16:35:06 - data_ingestion.data_extractor - INFO - Loading 23264 rows to temp table locations_temp_driver30_20251101_053506
+2025-11-01 16:35:14 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:35:18 - data_ingestion.data_extractor - INFO - [OK] Merged 23264 rows into locations
+2025-11-01 16:35:18 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23264 location records for driver 30
+2025-11-01 16:35:18 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 31
+2025-11-01 16:35:18 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:35:19 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:35:19 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:28.083000+00:00 to 2025-10-05T13:43:03.259000+00:00
+2025-11-01 16:35:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:35:21 - data_ingestion.data_extractor - INFO -     Chunk 1: 1148 points (12:03 - 12:08)
+2025-11-01 16:35:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:35:22 - data_ingestion.data_extractor - INFO -     Chunk 2: 1153 points (12:08 - 12:13)
+2025-11-01 16:35:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:35:23 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:35:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1163 records from location
+2025-11-01 16:35:25 - data_ingestion.data_extractor - INFO -     Chunk 4: 1163 points (12:18 - 12:23)
+2025-11-01 16:35:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:35:27 - data_ingestion.data_extractor - INFO -     Chunk 5: 1153 points (12:23 - 12:28)
+2025-11-01 16:35:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1158 records from location
+2025-11-01 16:35:28 - data_ingestion.data_extractor - INFO -     Chunk 6: 1158 points (12:28 - 12:33)
+2025-11-01 16:35:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:35:29 - data_ingestion.data_extractor - INFO -     Chunk 7: 1137 points (12:33 - 12:38)
+2025-11-01 16:35:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:35:31 - data_ingestion.data_extractor - INFO -     Chunk 8: 1153 points (12:38 - 12:43)
+2025-11-01 16:35:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:35:32 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:35:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:35:33 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:35:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:35:35 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:35:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:35:36 - data_ingestion.data_extractor - INFO -     Chunk 12: 1136 points (12:58 - 13:03)
+2025-11-01 16:35:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:35:38 - data_ingestion.data_extractor - INFO -     Chunk 13: 1143 points (13:03 - 13:08)
+2025-11-01 16:35:39 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:35:39 - data_ingestion.data_extractor - INFO -     Chunk 14: 1153 points (13:08 - 13:13)
+2025-11-01 16:35:41 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:35:41 - data_ingestion.data_extractor - INFO -     Chunk 15: 1146 points (13:13 - 13:18)
+2025-11-01 16:35:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1129 records from location
+2025-11-01 16:35:42 - data_ingestion.data_extractor - INFO -     Chunk 16: 1129 points (13:18 - 13:23)
+2025-11-01 16:35:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:35:43 - data_ingestion.data_extractor - INFO -     Chunk 17: 1148 points (13:23 - 13:28)
+2025-11-01 16:35:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:35:45 - data_ingestion.data_extractor - INFO -     Chunk 18: 1152 points (13:28 - 13:33)
+2025-11-01 16:35:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:35:46 - data_ingestion.data_extractor - INFO -     Chunk 19: 1148 points (13:33 - 13:38)
+2025-11-01 16:35:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:35:47 - data_ingestion.data_extractor - INFO -     Chunk 20: 1147 points (13:38 - 13:43)
+2025-11-01 16:35:48 - data_ingestion.data_extractor - INFO - Successfully fetched 357 records from location
+2025-11-01 16:35:48 - data_ingestion.data_extractor - INFO -     Chunk 21: 357 points (13:43 - 13:45)
+2025-11-01 16:35:49 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23319
+2025-11-01 16:35:49 - data_ingestion.data_extractor - INFO - Loading 23319 rows to temp table locations_temp_driver31_20251101_053549
+2025-11-01 16:35:55 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:35:58 - data_ingestion.data_extractor - INFO - [OK] Merged 23319 rows into locations
+2025-11-01 16:35:59 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23319 location records for driver 31
+2025-11-01 16:35:59 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 43
+2025-11-01 16:35:59 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:36:00 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:36:00 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:24.981000+00:00 to 2025-10-05T13:42:59.279000+00:00
+2025-11-01 16:36:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:36:01 - data_ingestion.data_extractor - INFO -     Chunk 1: 1148 points (12:03 - 12:08)
+2025-11-01 16:36:03 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:36:03 - data_ingestion.data_extractor - INFO -     Chunk 2: 1154 points (12:08 - 12:13)
+2025-11-01 16:36:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:36:04 - data_ingestion.data_extractor - INFO -     Chunk 3: 1155 points (12:13 - 12:18)
+2025-11-01 16:36:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:36:05 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:36:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:36:07 - data_ingestion.data_extractor - INFO -     Chunk 5: 1155 points (12:23 - 12:28)
+2025-11-01 16:36:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:36:08 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:36:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1137 records from location
+2025-11-01 16:36:10 - data_ingestion.data_extractor - INFO -     Chunk 7: 1137 points (12:33 - 12:38)
+2025-11-01 16:36:11 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:36:11 - data_ingestion.data_extractor - INFO -     Chunk 8: 1156 points (12:38 - 12:43)
+2025-11-01 16:36:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:36:12 - data_ingestion.data_extractor - INFO -     Chunk 9: 1148 points (12:43 - 12:48)
+2025-11-01 16:36:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:36:14 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:36:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:36:15 - data_ingestion.data_extractor - INFO -     Chunk 11: 1153 points (12:53 - 12:58)
+2025-11-01 16:36:16 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:36:16 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:36:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:36:18 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:36:19 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:36:19 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:36:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:36:21 - data_ingestion.data_extractor - INFO -     Chunk 15: 1145 points (13:13 - 13:18)
+2025-11-01 16:36:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1129 records from location
+2025-11-01 16:36:22 - data_ingestion.data_extractor - INFO -     Chunk 16: 1129 points (13:18 - 13:23)
+2025-11-01 16:36:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:36:23 - data_ingestion.data_extractor - INFO -     Chunk 17: 1151 points (13:23 - 13:28)
+2025-11-01 16:36:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:36:25 - data_ingestion.data_extractor - INFO -     Chunk 18: 1149 points (13:28 - 13:33)
+2025-11-01 16:36:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:36:26 - data_ingestion.data_extractor - INFO -     Chunk 19: 1149 points (13:33 - 13:38)
+2025-11-01 16:36:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:36:27 - data_ingestion.data_extractor - INFO -     Chunk 20: 1147 points (13:38 - 13:43)
+2025-11-01 16:36:28 - data_ingestion.data_extractor - INFO - Successfully fetched 351 records from location
+2025-11-01 16:36:28 - data_ingestion.data_extractor - INFO -     Chunk 21: 351 points (13:43 - 13:44)
+2025-11-01 16:36:28 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23313
+2025-11-01 16:36:29 - data_ingestion.data_extractor - INFO - Loading 23313 rows to temp table locations_temp_driver43_20251101_053629
+2025-11-01 16:36:36 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:36:40 - data_ingestion.data_extractor - INFO - [OK] Merged 23313 rows into locations
+2025-11-01 16:36:40 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23313 location records for driver 43
+2025-11-01 16:36:40 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 44
+2025-11-01 16:36:40 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:36:41 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:36:41 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:21.201000+00:00 to 2025-10-05T13:43:27.497000+00:00
+2025-11-01 16:36:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:36:43 - data_ingestion.data_extractor - INFO -     Chunk 1: 1150 points (12:03 - 12:08)
+2025-11-01 16:36:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:36:44 - data_ingestion.data_extractor - INFO -     Chunk 2: 1153 points (12:08 - 12:13)
+2025-11-01 16:36:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:36:45 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:36:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1161 records from location
+2025-11-01 16:36:47 - data_ingestion.data_extractor - INFO -     Chunk 4: 1161 points (12:18 - 12:23)
+2025-11-01 16:36:48 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:36:48 - data_ingestion.data_extractor - INFO -     Chunk 5: 1155 points (12:23 - 12:28)
+2025-11-01 16:36:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:36:50 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:36:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:36:51 - data_ingestion.data_extractor - INFO -     Chunk 7: 1140 points (12:33 - 12:38)
+2025-11-01 16:36:53 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:36:53 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:36:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:36:54 - data_ingestion.data_extractor - INFO -     Chunk 9: 1147 points (12:43 - 12:48)
+2025-11-01 16:36:55 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:36:55 - data_ingestion.data_extractor - INFO -     Chunk 10: 1140 points (12:48 - 12:53)
+2025-11-01 16:36:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:36:56 - data_ingestion.data_extractor - INFO -     Chunk 11: 1153 points (12:53 - 12:58)
+2025-11-01 16:36:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:36:58 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:36:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:36:59 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:37:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:37:01 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:37:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:37:02 - data_ingestion.data_extractor - INFO -     Chunk 15: 1142 points (13:13 - 13:18)
+2025-11-01 16:37:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:37:04 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:37:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:37:05 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:37:06 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:37:06 - data_ingestion.data_extractor - INFO -     Chunk 18: 1155 points (13:28 - 13:33)
+2025-11-01 16:37:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:37:08 - data_ingestion.data_extractor - INFO -     Chunk 19: 1145 points (13:33 - 13:38)
+2025-11-01 16:37:09 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:37:09 - data_ingestion.data_extractor - INFO -     Chunk 20: 1144 points (13:38 - 13:43)
+2025-11-01 16:37:10 - data_ingestion.data_extractor - INFO - Successfully fetched 480 records from location
+2025-11-01 16:37:10 - data_ingestion.data_extractor - INFO -     Chunk 21: 480 points (13:43 - 13:45)
+2025-11-01 16:37:10 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23441
+2025-11-01 16:37:10 - data_ingestion.data_extractor - INFO - Loading 23441 rows to temp table locations_temp_driver44_20251101_053710
+2025-11-01 16:37:17 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:37:20 - data_ingestion.data_extractor - INFO - [OK] Merged 23441 rows into locations
+2025-11-01 16:37:21 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23441 location records for driver 44
+2025-11-01 16:37:21 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 55
+2025-11-01 16:37:21 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:37:22 - data_ingestion.data_extractor - INFO - Successfully fetched 61 records from laps
+2025-11-01 16:37:22 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:28.662000+00:00 to 2025-10-05T13:42:30.727000+00:00
+2025-11-01 16:37:23 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:37:23 - data_ingestion.data_extractor - INFO -     Chunk 1: 1147 points (12:03 - 12:08)
+2025-11-01 16:37:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:37:25 - data_ingestion.data_extractor - INFO -     Chunk 2: 1155 points (12:08 - 12:13)
+2025-11-01 16:37:26 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:37:26 - data_ingestion.data_extractor - INFO -     Chunk 3: 1152 points (12:13 - 12:18)
+2025-11-01 16:37:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1163 records from location
+2025-11-01 16:37:28 - data_ingestion.data_extractor - INFO -     Chunk 4: 1163 points (12:18 - 12:23)
+2025-11-01 16:37:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:37:29 - data_ingestion.data_extractor - INFO -     Chunk 5: 1153 points (12:23 - 12:28)
+2025-11-01 16:37:30 - data_ingestion.data_extractor - INFO - Successfully fetched 1159 records from location
+2025-11-01 16:37:30 - data_ingestion.data_extractor - INFO -     Chunk 6: 1159 points (12:28 - 12:33)
+2025-11-01 16:37:32 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:37:32 - data_ingestion.data_extractor - INFO -     Chunk 7: 1136 points (12:33 - 12:38)
+2025-11-01 16:37:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:37:33 - data_ingestion.data_extractor - INFO -     Chunk 8: 1153 points (12:38 - 12:43)
+2025-11-01 16:37:35 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:37:35 - data_ingestion.data_extractor - INFO -     Chunk 9: 1151 points (12:43 - 12:48)
+2025-11-01 16:37:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:37:36 - data_ingestion.data_extractor - INFO -     Chunk 10: 1139 points (12:48 - 12:53)
+2025-11-01 16:37:37 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:37:37 - data_ingestion.data_extractor - INFO -     Chunk 11: 1151 points (12:53 - 12:58)
+2025-11-01 16:37:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:37:38 - data_ingestion.data_extractor - INFO -     Chunk 12: 1136 points (12:58 - 13:03)
+2025-11-01 16:37:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:37:40 - data_ingestion.data_extractor - INFO -     Chunk 13: 1143 points (13:03 - 13:08)
+2025-11-01 16:37:41 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:37:41 - data_ingestion.data_extractor - INFO -     Chunk 14: 1153 points (13:08 - 13:13)
+2025-11-01 16:37:43 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:37:43 - data_ingestion.data_extractor - INFO -     Chunk 15: 1144 points (13:13 - 13:18)
+2025-11-01 16:37:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:37:44 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:37:46 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:37:46 - data_ingestion.data_extractor - INFO -     Chunk 17: 1147 points (13:23 - 13:28)
+2025-11-01 16:37:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:37:47 - data_ingestion.data_extractor - INFO -     Chunk 18: 1153 points (13:28 - 13:33)
+2025-11-01 16:37:48 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:37:48 - data_ingestion.data_extractor - INFO -     Chunk 19: 1148 points (13:33 - 13:38)
+2025-11-01 16:37:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:37:49 - data_ingestion.data_extractor - INFO -     Chunk 20: 1148 points (13:38 - 13:43)
+2025-11-01 16:37:50 - data_ingestion.data_extractor - INFO - Successfully fetched 222 records from location
+2025-11-01 16:37:50 - data_ingestion.data_extractor - INFO -     Chunk 21: 222 points (13:43 - 13:44)
+2025-11-01 16:37:51 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23184
+2025-11-01 16:37:51 - data_ingestion.data_extractor - INFO - Loading 23184 rows to temp table locations_temp_driver55_20251101_053751
+2025-11-01 16:37:58 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:38:01 - data_ingestion.data_extractor - INFO - [OK] Merged 23184 rows into locations
+2025-11-01 16:38:02 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23184 location records for driver 55
+2025-11-01 16:38:02 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 63
+2025-11-01 16:38:02 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:38:03 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:38:03 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:16.498000+00:00 to 2025-10-05T13:42:18.482000+00:00
+2025-11-01 16:38:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:38:04 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:38:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:38:05 - data_ingestion.data_extractor - INFO -     Chunk 2: 1151 points (12:08 - 12:13)
+2025-11-01 16:38:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:38:07 - data_ingestion.data_extractor - INFO -     Chunk 3: 1154 points (12:13 - 12:18)
+2025-11-01 16:38:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1161 records from location
+2025-11-01 16:38:08 - data_ingestion.data_extractor - INFO -     Chunk 4: 1161 points (12:18 - 12:23)
+2025-11-01 16:38:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:38:10 - data_ingestion.data_extractor - INFO -     Chunk 5: 1154 points (12:23 - 12:28)
+2025-11-01 16:38:11 - data_ingestion.data_extractor - INFO - Successfully fetched 1158 records from location
+2025-11-01 16:38:11 - data_ingestion.data_extractor - INFO -     Chunk 6: 1158 points (12:28 - 12:33)
+2025-11-01 16:38:13 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:38:13 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:38:14 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:38:14 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:38:15 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:38:15 - data_ingestion.data_extractor - INFO -     Chunk 9: 1150 points (12:43 - 12:48)
+2025-11-01 16:38:17 - data_ingestion.data_extractor - INFO - Successfully fetched 1138 records from location
+2025-11-01 16:38:17 - data_ingestion.data_extractor - INFO -     Chunk 10: 1138 points (12:48 - 12:53)
+2025-11-01 16:38:18 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:38:18 - data_ingestion.data_extractor - INFO -     Chunk 11: 1155 points (12:53 - 12:58)
+2025-11-01 16:38:19 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:38:19 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:38:21 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:38:21 - data_ingestion.data_extractor - INFO -     Chunk 13: 1142 points (13:03 - 13:08)
+2025-11-01 16:38:22 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:38:22 - data_ingestion.data_extractor - INFO -     Chunk 14: 1155 points (13:08 - 13:13)
+2025-11-01 16:38:24 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:38:24 - data_ingestion.data_extractor - INFO -     Chunk 15: 1139 points (13:13 - 13:18)
+2025-11-01 16:38:25 - data_ingestion.data_extractor - INFO - Successfully fetched 1136 records from location
+2025-11-01 16:38:25 - data_ingestion.data_extractor - INFO -     Chunk 16: 1136 points (13:18 - 13:23)
+2025-11-01 16:38:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:38:27 - data_ingestion.data_extractor - INFO -     Chunk 17: 1143 points (13:23 - 13:28)
+2025-11-01 16:38:28 - data_ingestion.data_extractor - INFO - Successfully fetched 1158 records from location
+2025-11-01 16:38:28 - data_ingestion.data_extractor - INFO -     Chunk 18: 1158 points (13:28 - 13:33)
+2025-11-01 16:38:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:38:29 - data_ingestion.data_extractor - INFO -     Chunk 19: 1144 points (13:33 - 13:38)
+2025-11-01 16:38:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1143 records from location
+2025-11-01 16:38:31 - data_ingestion.data_extractor - INFO -     Chunk 20: 1143 points (13:38 - 13:43)
+2025-11-01 16:38:32 - data_ingestion.data_extractor - INFO - Successfully fetched 232 records from location
+2025-11-01 16:38:32 - data_ingestion.data_extractor - INFO -     Chunk 21: 232 points (13:43 - 13:44)
+2025-11-01 16:38:32 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23192
+2025-11-01 16:38:32 - data_ingestion.data_extractor - INFO - Loading 23192 rows to temp table locations_temp_driver63_20251101_053832
+2025-11-01 16:38:39 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:38:42 - data_ingestion.data_extractor - INFO - [OK] Merged 23192 rows into locations
+2025-11-01 16:38:43 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23192 location records for driver 63
+2025-11-01 16:38:43 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 81
+2025-11-01 16:38:43 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:38:44 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:38:44 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:19.530000+00:00 to 2025-10-05T13:42:26.711000+00:00
+2025-11-01 16:38:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:38:45 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:38:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:38:47 - data_ingestion.data_extractor - INFO -     Chunk 2: 1152 points (12:08 - 12:13)
+2025-11-01 16:38:48 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:38:48 - data_ingestion.data_extractor - INFO -     Chunk 3: 1155 points (12:13 - 12:18)
+2025-11-01 16:38:50 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:38:50 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:38:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:38:51 - data_ingestion.data_extractor - INFO -     Chunk 5: 1155 points (12:23 - 12:28)
+2025-11-01 16:38:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:38:52 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:38:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1140 records from location
+2025-11-01 16:38:54 - data_ingestion.data_extractor - INFO -     Chunk 7: 1140 points (12:33 - 12:38)
+2025-11-01 16:38:55 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:38:55 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:38:56 - data_ingestion.data_extractor - INFO - Successfully fetched 1149 records from location
+2025-11-01 16:38:56 - data_ingestion.data_extractor - INFO -     Chunk 9: 1149 points (12:43 - 12:48)
+2025-11-01 16:38:58 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:38:58 - data_ingestion.data_extractor - INFO -     Chunk 10: 1139 points (12:48 - 12:53)
+2025-11-01 16:38:59 - data_ingestion.data_extractor - INFO - Successfully fetched 1155 records from location
+2025-11-01 16:38:59 - data_ingestion.data_extractor - INFO -     Chunk 11: 1155 points (12:53 - 12:58)
+2025-11-01 16:39:01 - data_ingestion.data_extractor - INFO - Successfully fetched 1134 records from location
+2025-11-01 16:39:01 - data_ingestion.data_extractor - INFO -     Chunk 12: 1134 points (12:58 - 13:03)
+2025-11-01 16:39:02 - data_ingestion.data_extractor - INFO - Successfully fetched 1144 records from location
+2025-11-01 16:39:02 - data_ingestion.data_extractor - INFO -     Chunk 13: 1144 points (13:03 - 13:08)
+2025-11-01 16:39:04 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:39:04 - data_ingestion.data_extractor - INFO -     Chunk 14: 1151 points (13:08 - 13:13)
+2025-11-01 16:39:05 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:39:05 - data_ingestion.data_extractor - INFO -     Chunk 15: 1142 points (13:13 - 13:18)
+2025-11-01 16:39:07 - data_ingestion.data_extractor - INFO - Successfully fetched 1131 records from location
+2025-11-01 16:39:07 - data_ingestion.data_extractor - INFO -     Chunk 16: 1131 points (13:18 - 13:23)
+2025-11-01 16:39:08 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:39:08 - data_ingestion.data_extractor - INFO -     Chunk 17: 1148 points (13:23 - 13:28)
+2025-11-01 16:39:09 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:39:09 - data_ingestion.data_extractor - INFO -     Chunk 18: 1156 points (13:28 - 13:33)
+2025-11-01 16:39:10 - data_ingestion.data_extractor - INFO - Successfully fetched 1147 records from location
+2025-11-01 16:39:10 - data_ingestion.data_extractor - INFO -     Chunk 19: 1147 points (13:33 - 13:38)
+2025-11-01 16:39:12 - data_ingestion.data_extractor - INFO - Successfully fetched 1142 records from location
+2025-11-01 16:39:12 - data_ingestion.data_extractor - INFO -     Chunk 20: 1142 points (13:38 - 13:43)
+2025-11-01 16:39:13 - data_ingestion.data_extractor - INFO - Successfully fetched 248 records from location
+2025-11-01 16:39:13 - data_ingestion.data_extractor - INFO -     Chunk 21: 248 points (13:43 - 13:44)
+2025-11-01 16:39:13 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23209
+2025-11-01 16:39:13 - data_ingestion.data_extractor - INFO - Loading 23209 rows to temp table locations_temp_driver81_20251101_053913
+2025-11-01 16:39:21 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:39:24 - data_ingestion.data_extractor - INFO - [OK] Merged 23209 rows into locations
+2025-11-01 16:39:25 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23209 location records for driver 81
+2025-11-01 16:39:25 - data_ingestion.data_extractor - INFO - Extracting locations with date pagination for session 9896, driver 87
+2025-11-01 16:39:25 - data_ingestion.data_extractor - INFO -   Chunk size: 5 minutes
+2025-11-01 16:39:26 - data_ingestion.data_extractor - INFO - Successfully fetched 62 records from laps
+2025-11-01 16:39:26 - data_ingestion.data_extractor - INFO -   Session time range: 2025-10-05T12:05:23.270000+00:00 to 2025-10-05T13:43:52.288000+00:00
+2025-11-01 16:39:27 - data_ingestion.data_extractor - INFO - Successfully fetched 1151 records from location
+2025-11-01 16:39:27 - data_ingestion.data_extractor - INFO -     Chunk 1: 1151 points (12:03 - 12:08)
+2025-11-01 16:39:29 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:39:29 - data_ingestion.data_extractor - INFO -     Chunk 2: 1153 points (12:08 - 12:13)
+2025-11-01 16:39:30 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:39:30 - data_ingestion.data_extractor - INFO -     Chunk 3: 1153 points (12:13 - 12:18)
+2025-11-01 16:39:31 - data_ingestion.data_extractor - INFO - Successfully fetched 1160 records from location
+2025-11-01 16:39:31 - data_ingestion.data_extractor - INFO -     Chunk 4: 1160 points (12:18 - 12:23)
+2025-11-01 16:39:33 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:39:33 - data_ingestion.data_extractor - INFO -     Chunk 5: 1156 points (12:23 - 12:28)
+2025-11-01 16:39:34 - data_ingestion.data_extractor - INFO - Successfully fetched 1156 records from location
+2025-11-01 16:39:34 - data_ingestion.data_extractor - INFO -     Chunk 6: 1156 points (12:28 - 12:33)
+2025-11-01 16:39:36 - data_ingestion.data_extractor - INFO - Successfully fetched 1139 records from location
+2025-11-01 16:39:36 - data_ingestion.data_extractor - INFO -     Chunk 7: 1139 points (12:33 - 12:38)
+2025-11-01 16:39:37 - data_ingestion.data_extractor - INFO - Successfully fetched 1154 records from location
+2025-11-01 16:39:37 - data_ingestion.data_extractor - INFO -     Chunk 8: 1154 points (12:38 - 12:43)
+2025-11-01 16:39:38 - data_ingestion.data_extractor - INFO - Successfully fetched 1148 records from location
+2025-11-01 16:39:38 - data_ingestion.data_extractor - INFO -     Chunk 9: 1148 points (12:43 - 12:48)
+2025-11-01 16:39:40 - data_ingestion.data_extractor - INFO - Successfully fetched 1141 records from location
+2025-11-01 16:39:40 - data_ingestion.data_extractor - INFO -     Chunk 10: 1141 points (12:48 - 12:53)
+2025-11-01 16:39:41 - data_ingestion.data_extractor - INFO - Successfully fetched 1152 records from location
+2025-11-01 16:39:41 - data_ingestion.data_extractor - INFO -     Chunk 11: 1152 points (12:53 - 12:58)
+2025-11-01 16:39:42 - data_ingestion.data_extractor - INFO - Successfully fetched 1135 records from location
+2025-11-01 16:39:42 - data_ingestion.data_extractor - INFO -     Chunk 12: 1135 points (12:58 - 13:03)
+2025-11-01 16:39:44 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:39:44 - data_ingestion.data_extractor - INFO -     Chunk 13: 1145 points (13:03 - 13:08)
+2025-11-01 16:39:45 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:39:45 - data_ingestion.data_extractor - INFO -     Chunk 14: 1150 points (13:08 - 13:13)
+2025-11-01 16:39:47 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:39:47 - data_ingestion.data_extractor - INFO -     Chunk 15: 1145 points (13:13 - 13:18)
+2025-11-01 16:39:48 - data_ingestion.data_extractor - INFO - Successfully fetched 1130 records from location
+2025-11-01 16:39:48 - data_ingestion.data_extractor - INFO -     Chunk 16: 1130 points (13:18 - 13:23)
+2025-11-01 16:39:49 - data_ingestion.data_extractor - INFO - Successfully fetched 1150 records from location
+2025-11-01 16:39:49 - data_ingestion.data_extractor - INFO -     Chunk 17: 1150 points (13:23 - 13:28)
+2025-11-01 16:39:51 - data_ingestion.data_extractor - INFO - Successfully fetched 1153 records from location
+2025-11-01 16:39:51 - data_ingestion.data_extractor - INFO -     Chunk 18: 1153 points (13:28 - 13:33)
+2025-11-01 16:39:52 - data_ingestion.data_extractor - INFO - Successfully fetched 1146 records from location
+2025-11-01 16:39:52 - data_ingestion.data_extractor - INFO -     Chunk 19: 1146 points (13:33 - 13:38)
+2025-11-01 16:39:54 - data_ingestion.data_extractor - INFO - Successfully fetched 1145 records from location
+2025-11-01 16:39:54 - data_ingestion.data_extractor - INFO -     Chunk 20: 1145 points (13:38 - 13:43)
+2025-11-01 16:39:55 - data_ingestion.data_extractor - INFO - Successfully fetched 565 records from location
+2025-11-01 16:39:55 - data_ingestion.data_extractor - INFO -     Chunk 21: 565 points (13:43 - 13:45)
+2025-11-01 16:39:55 - data_ingestion.data_extractor - INFO -   Total locations fetched: 23527
+2025-11-01 16:39:55 - data_ingestion.data_extractor - INFO - Loading 23527 rows to temp table locations_temp_driver87_20251101_053955
+2025-11-01 16:40:02 - data_ingestion.data_extractor - INFO - Executing MERGE for locations
+2025-11-01 16:40:06 - data_ingestion.data_extractor - INFO - [OK] Merged 23527 rows into locations
+2025-11-01 16:40:06 - data_ingestion.data_extractor - INFO -   [OK] Loaded 23527 location records for driver 87
+2025-11-01 16:40:06 - data_ingestion.data_extractor - INFO - Extracting pit stops for session 9896
+2025-11-01 16:40:07 - data_ingestion.data_extractor - INFO - Successfully fetched 23 records from pit
+2025-11-01 16:40:07 - data_ingestion.data_extractor - INFO - Loading 23 rows to temp table pit_temp_20251101_054007
+2025-11-01 16:40:11 - data_ingestion.data_extractor - INFO - Main table pit doesn't exist, will create from temp
+2025-11-01 16:40:13 - data_ingestion.data_extractor - INFO - [OK] Created plenti-project.f1_raw_data.pit with 23 rows
