@@ -8,11 +8,11 @@ A production-ready ELT pipeline that extracts Formula 1 telemetry data from the 
 
 ## Features
 
-✅ **Idempotent data ingestion** - Safe to re-run, no duplicates  
-✅ **Dimensional modeling** - Star schema with fact and dimension tables  
-✅ **Automated CI/CD** - GitHub Actions for extraction, transformation, and testing  
-✅ **Comprehensive testing** - 28+ data quality tests  
-✅ **Production-ready** - Error handling, logging, monitoring  
+**Idempotent data ingestion** - Safe to re-run, no duplicates  
+**Dimensional modeling** - Star schema with fact and dimension tables  
+**Automated CI/CD** - GitHub Actions for extraction, transformation, and testing  
+**Comprehensive testing** - 28+ data quality tests  
+**Production-ready** - Error handling, logging, monitoring  
 
 ---
 
@@ -80,8 +80,7 @@ dbt docs serve
 ├── dbt_project/
 │   ├── models/
 │   │   ├── staging/             # Staging views (raw data cleanup)
-│   │   ├── intermediate/        # Dimension tables
-│   │   └── marts/              # Fact tables (analytics-ready)
+│   │   └── marts/               # Fact tables (analytics-ready)
 │   ├── tests/                   # Custom dbt tests
 │   └── dbt_project.yml
 │
@@ -134,7 +133,8 @@ The pipeline runs automatically via GitHub Actions:
 1. Create two datasets in your GCP project:
    ```sql
    CREATE SCHEMA `your-project.f1_raw_data`;
-   CREATE SCHEMA `your-project.f1_analytics`;
+   CREATE SCHEMA `your-project.f1_raw_data_staging`;
+   CREATE SCHEMA `your-project.f1_raw_data_mart`;
    ```
 
 2. Create a service account with these roles:
@@ -200,10 +200,6 @@ dbt docs serve
 **Issue: API returns 422 error**
 - Solution: Add more specific filters (session_key, date range)
 - The API rejects requests for too much data at once
-
-**Issue: dbt test failures**
-- Check logs: `cd dbt_project && dbt test --debug`
-- Review failed test in `target/compiled/` directory
 
 **Issue: BigQuery permission denied**
 - Verify service account has `bigquery.dataEditor` role

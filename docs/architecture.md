@@ -29,8 +29,8 @@ An ELT pipeline that extracts Formula 1 data from OpenF1 API, loads it into BigQ
 **Key Files:**
 - `.github/workflows/dbt-ci.yml` - Main production pipeline
 
-### Alternative for Future: Airflow
-If we need more complex scheduling or visual DAGs later, we can migrate to something like AirFlow
+### Alternative for Future: Airflow / Dagster
+If we need more complex scheduling or visual DAGs later, we can migrate to something like AirFlow or Dagster
 
 ---
 
@@ -115,20 +115,6 @@ models/
 
 **Facts (measurements):**
 - `fct_lap_summary` - Aggregated lap statistics
-
-### BigQuery Optimization
-
-**Partitioning:** Fact tables partitioned by date
-- Only scan relevant date ranges
-- Reduces query costs
-
-**Clustering:** Tables clustered by `session_key` and `driver_number`
-- Faster filtering on common queries
-- Co-locates related data
-
-**Incremental Models:**
-- Only process new data since last run
-- Fast pipeline execution (30 seconds vs 5 minutes)
 
 ---
 
