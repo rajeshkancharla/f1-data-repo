@@ -2,7 +2,7 @@ name: 'f1_project'
 version: '1.0.0'
 config-version: 2
 
-profile: 'f1_bigquery'
+profile: 'f1_project'
 
 model-paths: ["models"]
 clean-targets: ["target", "dbt_modules"]
