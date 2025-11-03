@@ -2,7 +2,11 @@
 
 A production-ready ELT pipeline that extracts Formula 1 telemetry data from the OpenF1 API and transforms it into analytics-ready dimensional models in BigQuery.
 
-**Tech Stack:** Python · BigQuery · dbt · GitHub Actions
+**Tech Stack:** 
+- Python
+- BigQuery
+- dbt
+- GitHub Actions
 
 ---
 
