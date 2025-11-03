@@ -1,0 +1,5 @@
+2025-11-01 16:22:51 - __main__ - INFO - Logging to file: logs\run_extraction_20251101_162251.log
+2025-11-01 16:22:53 - __main__ - INFO - BigQuery connection established
+2025-11-01 16:23:02 - __main__ - INFO - Loaded 20 drivers to drivers table
+2025-11-01 16:26:12 - __main__ - INFO - Total laps loaded: 1229
+2025-11-01 16:40:06 - __main__ - INFO - Total locations loaded: 465,879
