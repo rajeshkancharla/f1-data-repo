@@ -188,7 +188,9 @@ dbt test
 ## Documentation
 
 **[Architecture Documentation](docs/architecture.md)** - Detailed Architecture Documentation
+
 **[DBT Documentation](docs/dbt.md)** - DBT Documentation with screenshots from dbt cloud portal
+
 **[Big Query Documentation](docs/google_big_query.md)** - Google BigQuery screenshots from Google Cloud Platform Console
 
 ---
