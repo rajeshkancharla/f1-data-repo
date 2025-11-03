@@ -116,20 +116,6 @@ models/
 **Facts (measurements):**
 - `fct_lap_summary` - Aggregated lap statistics
 
-### BigQuery Optimization
-
-**Partitioning:** Fact tables partitioned by date
-- Only scan relevant date ranges
-- Reduces query costs
-
-**Clustering:** Tables clustered by `session_key` and `driver_number`
-- Faster filtering on common queries
-- Co-locates related data
-
-**Incremental Models:**
-- Only process new data since last run
-- Fast pipeline execution (30 seconds vs 5 minutes)
-
 ---
 
 ## 4. Testing & Monitoring
