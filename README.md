@@ -2,7 +2,11 @@
 
 A production-ready ELT pipeline that extracts Formula 1 telemetry data from the OpenF1 API and transforms it into analytics-ready dimensional models in BigQuery.
 
-**Tech Stack:** Python · BigQuery · dbt · GitHub Actions
+**Tech Stack:** 
+- Python
+- BigQuery
+- dbt
+- GitHub Actions
 
 ---
 
@@ -11,7 +15,7 @@ A production-ready ELT pipeline that extracts Formula 1 telemetry data from the 
 **Idempotent data ingestion** - Safe to re-run, no duplicates  
 **Dimensional modeling** - Star schema with fact and dimension tables  
 **Automated CI/CD** - GitHub Actions for extraction, transformation, and testing  
-**Comprehensive testing** - 28+ data quality tests  
+**Comprehensive testing** - ~30 data quality tests  
 **Production-ready** - Error handling, logging, monitoring  
 
 ---
@@ -183,15 +187,11 @@ dbt test
 
 ## Documentation
 
-📖 **[Architecture Documentation](docs/architecture.md)** - Detailed system design, scaling strategies, and production considerations
+**[Architecture Documentation](docs/architecture.md)** - Detailed Architecture Documentation
 
-📊 **dbt Documentation** - Auto-generated lineage and model docs:
-```bash
-dbt docs generate
-dbt docs serve
-```
+**[DBT Documentation](docs/dbt.md)** - DBT Documentation with screenshots from dbt cloud portal
 
----
+**[Big Query Documentation](docs/google_big_query.md)** - Google BigQuery screenshots from Google Cloud Platform Console
 
 ---
 
