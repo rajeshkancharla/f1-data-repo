@@ -196,7 +196,10 @@ class F1BigQueryExtractor:
         return rows_loaded
     
     def _merge_tables(self, source_table_name: str, table_name: str) -> int:
-        """Perform MERGE operation to upsert data from source to target"""
+        """
+        MERGE source table into target table based on primary keys
+        FIXED: Only uses columns that exist in BOTH source and target tables
+        """
         primary_keys = self.TABLE_PRIMARY_KEYS.get(table_name, [])
         
         if not primary_keys:
@@ -209,9 +212,20 @@ class F1BigQueryExtractor:
         # Build MERGE statement
         on_conditions = " AND ".join([f"target.{pk} = source.{pk}" for pk in primary_keys])
         
-        # Get column list
+        # FIX: Get column list from BOTH source and target tables
         source_table_obj = self.client.get_table(source_table)
-        columns = [field.name for field in source_table_obj.schema]
+        source_columns = set([field.name for field in source_table_obj.schema])
+        
+        target_table_obj = self.client.get_table(target_table)
+        target_columns = set([field.name for field in target_table_obj.schema])
+        
+        # Only use columns that exist in BOTH tables (intersection)
+        columns = list(source_columns.intersection(target_columns))
+        
+        if not columns:
+            raise ValueError(f"No common columns between source and target tables for {table_name}")
+        
+        logger.info(f"Using {len(columns)} common columns: {', '.join(sorted(columns))}")
         
         # UPDATE and INSERT clauses
         update_columns = [col for col in columns if col not in primary_keys]
